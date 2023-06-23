@@ -1,0 +1,2725 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: none;
+  /* overflow: hidden; */
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px
+    /* color: #333; */
+}
+
+/* NAVBAR STARTS */
+.navbar {
+  height: 118px;
+  display: block;
+  justify-content: space-between;
+  border-bottom: 1px solid #e2dddd;
+
+  /* padding: 10px; */
+}
+
+.topNav {
+  height: 20px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #EFEFF0;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 5px;
+}
+
+.topNav h1 {
+  color: #66676e;
+  font-family: HelveticaNow, Helvetica, sans-serif;
+  ;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 16px;
+}
+
+.centerNav {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 200px;
+  padding-right: 205px;
+}
+
+.centerNav .links {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  list-style: none;
+  color: black !important;
+}
+
+.centerNav li {
+  display: inline-block;
+  padding: 10px;
+}
+
+.centerNav .links a {
+  font-weight: 700;
+  color: rgb(26, 26, 26);
+  text-decoration: none;
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.centerNav div {
+  margin-right: 120px;
+  padding: 20px;
+  justify-content: center;
+}
+
+.centerNav .icons img {
+  width: 18px;
+  margin-top: 10px;
+}
+
+.centerNav .links li:hover {
+  background-color: #EFEFF0;
+  padding: 10px;
+  height: 50%;
+  width: 100%;
+}
+
+.bottomNav {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 190px;
+  padding-right: 190px;
+}
+
+.bottomNav div {
+  padding: 8px;
+}
+
+.bottomNav div input {
+  width: 250px;
+  outline: none;
+  border: none;
+  background-color: #EFEFF0;
+  padding: 10px;
+}
+
+
+.bottomNav .links {
+  display: flex;
+  /* padding: 10px; */
+  justify-content: space-between;
+  list-style: none;
+  color: black;
+  cursor: pointer;
+
+}
+
+.bottomNav li {
+  display: inline-block;
+  margin: 12px;
+  /* cursor: pointer; */
+  /* padding: 10px; */
+}
+
+.bottomNav .links a {
+  font-weight: 400;
+  color: #1A1A1A;
+  text-decoration: none solid rgb(26, 26, 26);
+  text-align: left;
+  font-family: HelveticaNow, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  vertical-align: baseline;
+}
+
+.bottomNav .links li:hover {
+  border-bottom: 2px solid #1A1A1A;
+}
+
+.dropDown {
+  margin-top: 20px;
+  width: 100%;
+  /* height: 500%; */
+  display: flex;
+  grid-template-columns: 3fr;
+  background-color: white;
+}
+
+/* NAVBAR ENDS */
+
+
+
+/* FOOTER STARTS */
+.footer {
+  height: 750Px;
+  justify-content: center;
+  padding: 190px;
+  /* margin-top: 200px; */
+}
+
+.footer h1 {
+  font-family: HelveticaNow, Helvetica, sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 32px;
+  color: rgb(26, 26, 26);
+  padding: 15px;
+  /* padding: 10px; */
+}
+
+.footer .log2 {
+  margin-top: 20px;
+}
+
+.topFooter {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin-top: 20px;
+  /* background-color: rgb(160, 46, 46); */
+}
+
+.topFooter li {
+  font-family: HelveticaNow, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 10px;
+  padding: 15px;
+}
+
+.topFooter a:hover {
+  border-bottom: 2px solid #1A1A1A;
+}
+
+.topFooter ul {
+  list-style: none;
+}
+
+.topFooter li a {
+  text-decoration: none;
+  color: rgb(26, 26, 26);
+}
+
+.centerFooter {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  background-color: #029948;
+  margin-top: 50px;
+  padding-left: 190px;
+  padding-right: 190px;
+}
+
+.footer1 {
+  width: 80%;
+  display: flex;
+  /* padding-right: 150px; */
+}
+
+.footer1 .col1 {
+  width: 45%;
+  padding: 20px;
+}
+
+.footer1 .col1 h1 {
+  font-family: HelveticaNow, Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28px;
+  color: rgb(26, 26, 26);
+  margin-top: 20px;
+}
+
+.footer1 .col1 h2 {
+  font-family: Tiempos, "Times New Roman", serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  color: rgb(26, 26, 26);
+}
+
+.footer1 .col1 p {
+  font-family: Tiempos, "Times New Roman", serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgb(26, 26, 26);
+}
+
+.footer1 .col2 {
+  width: 45%;
+  height: 330px;
+  margin: 20px;
+  gap: 10px;
+  display: flex;
+  background-color: #FFFFFF;
+  margin-right: 490;
+  padding: 50px;
+}
+
+.centerFooter .footer1 .col2 .faq {
+  display: block;
+}
+
+.centerFooter .footer1 .col2 .faq .info {
+  display: inline-block;
+}
+
+.centerFooter .footer1 .col2 .faq .info1 input {
+  width: 500px;
+  padding: 20px;
+  border: 1px solid black;
+
+}
+
+.centerFooter .footer1 .col2 .faq .info1 label {
+  border: 1px solid black;
+  padding: 5px;
+  font-size: 15px;
+}
+
+.centerFooter .footer1 .col2 .faq .info2 {
+  display: flex;
+}
+
+.centerFooter .footer1 .col2 .faq .info2 .col1 {
+  width: 50%;
+  padding: 0%;
+}
+
+.centerFooter .footer1 .col2 .faq .info2 .col1 h1 {
+  font: HelveticaNow, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  color: rgb(26, 26, 26);
+}
+
+.centerFooter .footer1 .col2 .faq .info2 .col2 {
+  width: 30%;
+  height: 20px;
+  display: block;
+  padding: 0%;
+  margin: 20px;
+
+}
+
+.centerFooter .footer1 .col2 .faq .info2 .col2 label {
+  font: HelveticaNow, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgb(26, 26, 26);
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.centerFooter .footer1 .col2 .faq select {
+  width: 100%;
+  padding: 15px;
+  margin-top: 10px;
+  border-left: none;
+  border-right: none;
+}
+
+.centerFooter .footer1 .col2 .faq .btn {
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  justify-content: space-between;
+}
+
+.centerFooter .footer1 .col2 .faq p {
+  font-size: 13px;
+  margin-top: 10px;
+}
+
+
+
+/* FOOTER ENDS */
+
+/* HOMEPAGE SECTION1 STARTS */
+
+.section1 {
+  width: 100%;
+  height: 350px;
+  display: flex;
+  background-color: #D2451E;
+  margin-top: 18px;
+  padding-left: 180px;
+  padding-right: 180px;
+}
+
+.section1 .col1 {
+  width: 45%;
+  padding: 20px;
+}
+
+.section1 .col1 h1 {
+  font-family: HelveticaNow, Helvetica, sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 36px;
+  color: rgb(255, 255, 255);
+}
+
+.section1 .col1 .text {
+  display: flex;
+
+}
+
+.section1 .col1 p {
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+  color: rgb(255, 255, 255);
+  margin-top: 200px;
+
+}
+
+.section1 .col1 span {
+  margin-top: 194px;
+}
+
+.section1 .col1 .arrow {
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+
+}
+
+.section1 .col1 h2 {
+  font-family: Tiempos, "Times New Roman", serif;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 36px;
+  color: rgb(255, 255, 255);
+}
+
+.section1 .col2 {
+  width: 45%;
+  height: 300px;
+  margin: 20px;
+  gap: 10px;
+  display: flex;
+}
+
+.section1 .col2 .icon {
+  color: rgb(243, 239, 239);
+  font-size: 30px;
+
+}
+
+.section1 .col2 img {
+  width: 55%;
+  height: 330px;
+  margin-right: 190px;
+}
+
+.colNav {
+  width: 100%;
+  height: 50px;
+  background-color: #7E2912;
+  padding-left: 190px;
+  padding-right: 190px;
+}
+
+.colNav ul {
+  text-decoration: none;
+  list-style: none;
+}
+
+.colNav ul li {
+  display: inline-block;
+  padding: 10px;
+  font-family: HelveticaNow, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  color: rgb(255, 255, 255);
+}
+
+.colNav ul li a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+
+}
+
+
+/* HOMEPAGE SECTION1 ENDS */
+
+/* HOMEPAGE SECTION2 STARTS */
+a {
+  text-decoration: none;
+}
+
+.section2 {
+  width: 100%;
+  height: 350px;
+  display: flex;
+  background-color: #029948;
+  margin-top: 50px;
+  padding-left: 180px;
+  padding-right: 180px;
+}
+
+.section2 .col1 {
+  width: 30%;
+  padding: 20px;
+}
+
+
+.section2 .col1 h1 {
+  font-family: HelveticaNow, Helvetica, sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 36px;
+  color: rgb(26, 26, 26);
+}
+
+.section2 .col1 p {
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+  color: rgb(26, 26, 26);
+  margin-top: 20px;
+}
+
+.section2 .col1 .text {
+  display: flex;
+
+}
+
+.section2 .col1 .text p {
+  font-family: HelveticaNow, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  color: rgb(26, 26, 26);
+  margin-top: 20px;
+}
+
+.section2 .col1 .text p:hover {
+  border-bottom: 2px solid black;
+}
+
+.section2 .col1 span {
+  margin-top: 17px;
+}
+
+.section2 .col1 .arrow {
+  font-size: 30px;
+  color: rgb(26, 26, 26);
+
+}
+
+.section2 .col1 h2 {
+  font-family: Tiempos, "Times New Roman", serif;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 36px;
+  color: rgb(26, 26, 26);
+}
+
+.section2 .col2 {
+  width: 70%;
+  height: 300px;
+  margin: 20px;
+  gap: 10px;
+  display: flex;
+}
+
+
+.section2 .col2 img {
+  width: 66%;
+  height: 330px;
+  margin-right: 190px;
+}
+
+.product {
+  width: 100%;
+  height: 585px;
+  display: grid;
+  background-color: #03D665;
+  padding-left: 150px;
+  padding-right: 190px;
+}
+
+.product .card {
+  gap: 2px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  padding: 10px;
+  margin-top: 20px;
+  /* margin: 50px; */
+}
+
+.product .card .icon {
+  font-size: 40px;
+  position: relative;
+  left: 260px;
+  top: -430px;
+  color: rgb(26, 26, 26);
+  background-color: white;
+}
+
+.product .card .txt1 {
+  font-family: HelveticaNow, Helvetica, sans-serif;
+  ;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  color: white;
+  background-color: #1A1A1A;
+  padding: 5px;
+}
+
+.product .card .txt2 {
+  font-family: HelveticaNow, Helvetica, sans-serif;
+  ;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  color: rgb(26, 26, 26);
+  background-color: white;
+  padding: 5px;
+}
+
+.product .card h1 {
+  position: absolute;
+  top: 1335px;
+}
+
+.product .card h2 {
+  font-family: Tiempos, "Times New Roman", serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: rgb(26, 26, 26);
+  margin-top: -40px;
+}
+
+.product .card h3 {
+  font-family: HelveticaNow, Helvetica, sans-serif;
+  ;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: rgb(26, 26, 26);
+}
+
+.product .card p {
+  margin-top: 20px;
+  font-family: HelveticaNow, Helvetica, sans-serif;
+  ;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: rgb(26, 26, 26);
+}
+
+/* HOMEPAGE SECTION2 ENDS */
+
+/* HOMEPAGE SECTION3 STARTS */
+
+a {
+  text-decoration: none;
+}
+
+.section3 {
+  width: 100%;
+  height: 350px;
+  display: flex;
+  background-color: #496e9e;
+  margin-top: 50px;
+  padding-left: 180px;
+  padding-right: 180px;
+}
+
+.section3 .col1 {
+  width: 30%;
+  padding: 20px;
+}
+
+
+.section3 .col1 h1 {
+  font-family: HelveticaNow, Helvetica, sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 36px;
+  color: white;
+}
+
+.section3 .col1 p {
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+  color: white;
+  margin-top: 20px;
+}
+
+.section3 .col1 .text {
+  display: flex;
+
+}
+
+.section3 .col1 .text p {
+  font-family: HelveticaNow, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  color: white;
+  margin-top: 20px;
+}
+
+.section3 .col1 .text p:hover {
+  border-bottom: 2px solid white;
+}
+
+.section3 .col1 span {
+  margin-top: 17px;
+}
+
+.section3 .col1 .arrow {
+  font-size: 30px;
+  color: white;
+
+}
+
+.section3 .col1 h2 {
+  font-family: Tiempos, "Times New Roman", serif;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 36px;
+  color: white;
+}
+
+.section3 .col2 {
+  width: 70%;
+  height: 300px;
+  margin: 20px;
+  gap: 10px;
+  display: flex;
+}
+
+
+.section3 .col2 img {
+  width: 66%;
+  height: 330px;
+  margin-right: 190px;
+}
+
+.section3Product {
+  width: 100%;
+  height: 500px;
+  display: grid;
+  background-color: #0a4872;
+  padding-left: 190px;
+  padding-right: 190px;
+}
+
+.section3Product .card {
+  gap: 2px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  padding: 10px;
+  margin-top: 20px;
+  /* margin: 50px; */
+}
+
+.section3Product .card img {
+  width: 80%;
+}
+
+.section3Product .card .icon {
+  font-size: 40px;
+  position: relative;
+  left: -40px;
+  top: -315px;
+  color: rgb(26, 26, 26);
+  background-color: white;
+}
+
+.section3Product .card .txt1 {
+  font-family: HelveticaNow, Helvetica, sans-serif;
+  ;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  color: white;
+  background-color: #1A1A1A;
+  padding: 5px;
+}
+
+.section3Product .card .txt2 {
+  font-family: HelveticaNow, Helvetica, sans-serif;
+  ;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  color: rgb(26, 26, 26);
+  background-color: white;
+  padding: 5px;
+}
+
+.section3Product .card h1 {
+  position: absolute;
+  top: 2248px;
+}
+
+.section3Product .card h2 {
+  font-family: Tiempos, "Times New Roman", serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: white;
+  margin-top: 5px;
+}
+
+.section3Product .card h3 {
+  font-family: HelveticaNow, Helvetica, sans-serif;
+  ;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: white;
+}
+
+.section3Product .card p {
+  margin-top: 20px;
+  font-family: HelveticaNow, Helvetica, sans-serif;
+  ;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: white;
+}
+
+/* HOMEPAGE SECTION3 ENDS */
+
+
+/* HOMEPAGE SECTION4 STARTS */
+
+a {
+  text-decoration: none;
+}
+
+.section4 {
+  width: 100%;
+  height: 350px;
+  display: flex;
+  background-color: #0743B2;
+  margin-top: 50px;
+  padding-left: 180px;
+  padding-right: 180px;
+}
+
+.section4 .col1 {
+  width: 30%;
+  padding: 20px;
+}
+
+
+.section4 .col1 h1 {
+  font-family: HelveticaNow, Helvetica, sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 36px;
+  color: white;
+}
+
+.section4 .col1 p {
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+  color: white;
+  margin-top: 20px;
+}
+
+.section4 .col1 .text {
+  display: flex;
+
+}
+
+.section4 .col1 .text p {
+  font-family: HelveticaNow, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  color: white;
+  margin-top: 20px;
+}
+
+.section4 .col1 .text p:hover {
+  border-bottom: 2px solid white;
+}
+
+.section4 .col1 span {
+  margin-top: 17px;
+}
+
+.section4 .col1 .arrow {
+  font-size: 30px;
+  color: white;
+
+}
+
+.section4 .col1 h2 {
+  font-family: Tiempos, "Times New Roman", serif;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 36px;
+  color: white;
+}
+
+.section4 .col2 {
+  width: 70%;
+  height: 300px;
+  margin: 20px;
+  gap: 10px;
+  display: flex;
+}
+
+
+.section4 .col2 img {
+  width: 66%;
+  height: 330px;
+  margin-right: 190px;
+}
+
+.section4Product {
+  width: 100%;
+  height: 520px;
+  display: grid;
+  background-color: #04286B;
+  padding-left: 190px;
+  padding-right: 190px;
+}
+
+.section4Product .card {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.section4Product .card .icon {
+  font-size: 30px;
+  position: relative;
+  left: 216px;
+  top: -375px;
+  color: rgb(26, 26, 26);
+  background-color: white;
+  padding: 10px;
+}
+
+.section4Product .card .txt1 {
+  font-family: HelveticaNow, Helvetica, sans-serif;
+  ;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  color: #1A1A1A;
+  background-color: white;
+  padding: 5px;
+}
+
+.section4Product .card .txt2 {
+  font-family: HelveticaNow, Helvetica, sans-serif;
+  ;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  color: rgb(26, 26, 26);
+  background-color: white;
+  padding: 5px;
+}
+
+.section4Product .card .btn .txt1 {
+  font-family: HelveticaNow, Helvetica, sans-serif;
+  ;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  color: white;
+  background-color: #1A1A1A;
+  padding: 5px;
+}
+
+.section4Product .card .btn .txt2 {
+  font-family: HelveticaNow, Helvetica, sans-serif;
+  ;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  color: rgb(26, 26, 26);
+  background-color: white;
+  padding: 5px;
+}
+
+.section4Product .card .shop1 {
+  display: flex;
+  position: absolute;
+  top: 3180px;
+  gap: 3px;
+}
+
+.section4Product .card h2 {
+  font-family: Tiempos, "Times New Roman", serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: white;
+  margin-top: -30px;
+}
+
+.section4Product .card h3 {
+  font-family: HelveticaNow, Helvetica, sans-serif;
+  ;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: white;
+}
+
+.section4Product .card p {
+  margin-top: 20px;
+  font-family: HelveticaNow, Helvetica, sans-serif;
+  ;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: white;
+}
+
+.section4Product .card img {
+  width: 85%;
+}
+
+/* HOMEPAGE SECTION4 ENDS */
+
+
+/* SHOP PAGE STARTS */
+
+.shopHeader {
+  display: block;
+  padding-left: 190px;
+}
+
+.shopHeader h1 {
+  font: HelveticaNow, Helvetica, sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48px;
+  color: rgb(26, 26, 26);
+  margin-top: 20px;
+}
+
+.shopHeader .shopBanner {
+  width: 90%;
+  display: flex;
+  margin-top: 20px;
+  gap: 100px
+}
+
+
+.shopBanner .col1 ul {
+  display: block;
+  list-style: none;
+  text-decoration: none;
+}
+
+.shopHeader .shopBanner .col1 ul li {
+  font-family: HelveticaNow, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.shopHeader .shopBanner .col1 ul li:hover {
+  border-bottom: 1px solid black;
+}
+
+.shopHeader .shopBanner .col1 ul li a {
+  color: rgb(26, 26, 26);
+}
+
+.shopHeader .shopBanner .col2 {
+  margin-top: 10px;
+}
+
+.shopHeader .shopBanner .col2 .card {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+
+.shopHeader .shopBanner .col2 .card .icon {
+  font-size: 20px;
+  position: absolute;
+  left: 710px;
+  top: 220px;
+  color: rgb(26, 26, 26);
+  background-color: white;
+  padding: 10px;
+}
+
+/* .product-card {
+  background-color: #66676e;
+} */
+
+.imgIcon {
+  display: flex;
+}
+
+.shopHeader .shopBanner .col2 .card .txt1 {
+  font-family: HelveticaNow, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  color: #1A1A1A;
+  background-color: white;
+  padding: 5px;
+}
+
+.shopHeader .shopBanner .col2 .card .txt2 {
+  font-family: HelveticaNow, Helvetica, sans-serif;
+  ;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  color: rgb(26, 26, 26);
+  background-color: white;
+  padding: 5px;
+}
+
+.shopHeader .shopBanner .col2 .card .btn .txt1 {
+  font-family: HelveticaNow, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  color: white;
+  background-color: #1A1A1A;
+  padding: 5px;
+}
+
+.shopHeader .shopBanner .col2 .card .btn .txt2 {
+  font-family: HelveticaNow, Helvetica, sans-serif;
+  ;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  color: rgb(26, 26, 26);
+  background-color: white;
+  padding: 5px;
+}
+
+.shopHeader .shopBanner .col2 .card .shop1 {
+  display: flex;
+  position: absolute;
+  top: 580px;
+  gap: 3px;
+}
+
+.shopHeader .shopBanner .col2 .card h2 {
+  font-family: Tiempos, "Times New Roman", serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: black;
+  margin-top: 10px;
+}
+
+.shopHeader .shopBanner .col2 .card h3 {
+  font-family: HelveticaNow, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: black;
+}
+
+.shopHeader .shopBanner .col2 .card p {
+  margin-top: 10px;
+  font-family: HelveticaNow, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: black;
+}
+
+.shopHeader .shopBanner .col2 .card img {
+  width: 100%;
+}
+
+.shopHeader .shopBanner .col2 .card .product-card {
+  height: 500px;
+  margin-top: 10px;
+}
+
+/* SHOP PAGE ENDS */
+
+/* SHOPBLOG2 STARTS */
+.shop-section2 {
+  width: 68%;
+  height: 300px;
+  display: flex;
+  background-color: #EFEFF0;
+  position: relative;
+  left: 260px;
+  margin-top: 50px;
+  /* padding-left: 180px;
+  padding-right: 180px; */
+}
+
+.shop-section2 .col1 {
+  width: 40%;
+  padding: 20px;
+}
+
+
+.shop-section2 .col1 h1 {
+  font-family: HelveticaNow, Helvetica, sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 36px;
+  color: rgb(26, 26, 26);
+}
+
+.shop-section2 .col1 p {
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+  color: rgb(26, 26, 26);
+  margin-top: 20px;
+}
+
+.shop-section2 .col1 .text {
+  display: flex;
+
+}
+
+.shop-section2 .col1 .text p {
+  font-family: HelveticaNow, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  color: rgb(26, 26, 26);
+  margin-top: 20px;
+}
+
+.shop-section2 .col1 .text p:hover {
+  border-bottom: 2px solid black;
+}
+
+.shop-section2 .col1 span {
+  margin-top: 17px;
+}
+
+.shop-section2 .col1 .arrow {
+  font-size: 30px;
+  color: rgb(26, 26, 26);
+
+}
+
+.shop-section2 .col1 h2 {
+  font-family: Tiempos, "Times New Roman", serif;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 36px;
+  color: rgb(26, 26, 26);
+}
+
+.shop-section2 .col2 {
+  width: 70%;
+  height: 300px;
+  gap: 10px;
+  display: flex;
+}
+
+
+.shop-section2 .col2 img {
+  width: 100%;
+  height: 270px;
+  margin-top: 20px;
+
+  /* margin-right: 190px; */
+}
+
+.shopBanner2 {
+  /* position: relative; */
+  left: 955px;
+  margin-top: 800px;
+}
+
+
+
+/* SHOPBLOG2 ENDS */
+
+/* SHOPBLOG3 STARTS */
+
+.productCard {
+  width: 68%;
+  height: 420px;
+  /* background-color: #EFEFF0; */
+  position: relative;
+  left: 260px;
+  margin-top: 20px;
+}
+
+/* .productCard .icon{
+  font-size: 30px;
+  position: relative;
+  left: 180px;
+  top: -320px;
+  color: rgb(26, 26, 26);
+  background-color: white;
+  padding: 10px;
+}
+
+.productCard .card .shop1 {
+  display: flex;
+  position: absolute;
+  top: 280px;
+  gap: 3px;
+} */
+
+.productCard .card {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+
+.productCard .card .icon {
+  font-size: 20px;
+  position: absolute;
+  left: 710px;
+  top: 220px;
+  color: rgb(26, 26, 26);
+  background-color: white;
+  padding: 10px;
+}
+
+/* .product-card {
+  background-color: #66676e;
+} */
+
+.productCard .imgIcon {
+  display: flex;
+}
+
+.productCard .card .txt1 {
+  font-family: HelveticaNow, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  color: #1A1A1A;
+  background-color: white;
+  padding: 5px;
+}
+
+.productCard .card .txt2 {
+  font-family: HelveticaNow, Helvetica, sans-serif;
+  ;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  color: rgb(26, 26, 26);
+  background-color: white;
+  padding: 5px;
+}
+
+.productCard .card .btn .txt1 {
+  font-family: HelveticaNow, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  color: white;
+  background-color: #1A1A1A;
+  padding: 5px;
+}
+
+.productCard .card .btn .txt2 {
+  font-family: HelveticaNow, Helvetica, sans-serif;
+  ;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  color: rgb(26, 26, 26);
+  background-color: white;
+  padding: 5px;
+}
+
+.productCard .card .shop1 {
+  display: flex;
+  position: absolute;
+  top: 380px;
+  gap: 3px;
+}
+
+.productCard .card h2 {
+  font-family: Tiempos, "Times New Roman", serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: black;
+  margin-top: 10px;
+}
+
+.productCard .card h3 {
+  font-family: HelveticaNow, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: black;
+}
+
+.productCard .card p {
+  margin-top: 10px;
+  font-family: HelveticaNow, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: black;
+}
+
+.productCard .card img {
+  width: 100%;
+}
+
+.productCard .product-card {
+  height: 500px;
+  margin-top: 10px;
+}
+
+/* SHOPBLOG3 ENDS */
+
+
+/* SINGLEPRODUCT PAGE STARTS */
+
+.productView {
+  display: flex;
+  position: relative;
+  left: 200px;
+  right: 200px;
+  margin-top: 40px;
+  gap: 20px;
+}
+
+.productView .col1 {
+  width: 5%;
+  display: block;
+}
+
+.productView .col1 img {
+  width: 100%;
+  gap: 20px;
+}
+
+.productView .col2 {
+  width: 30%;
+}
+
+.productView .col2 img {
+  width: 100%;
+}
+
+.productView .col3 {
+  width: 30%;
+  margin-left: 114px;
+}
+
+.productView .col3 h1 {
+  font-family: Tiempos, "Times New Roman", serif;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 32px;
+  color: rgb(26, 26, 26);
+}
+
+.productView .col3 h1 {
+  font-family: HelveticaNow, Helvetica, sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 32px;
+  color: rgb(26, 26, 26);
+}
+
+.productView .col3 span .disc {
+  font-family: HelveticaNow, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: rgb(217, 0, 12);
+  margin-top: 20px;
+}
+
+.productView .col3 h3 {
+  font-family: HelveticaNow, Helvetica, sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 28px;
+  color: rgb(217, 0, 12);
+}
+
+.productView .col3 h3 span {
+  font-family: HelveticaNow, Helvetica, sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 28px;
+  color: rgb(102, 103, 110)
+}
+
+.productView .col3 .imageView {
+  display: flex;
+  gap: 10px;
+}
+
+.productView .col3 .imageView img {
+  width: 15%;
+}
+
+.productView .col3 p {
+  font-family: HelveticaNow, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: rgb(26, 26, 26);
+  margin-top: 20px;
+}
+
+.productView .col3 select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
+  border: 1px solid rgb(26, 26, 26);
+}
+
+.productView .col3 select option {
+
+  padding: 30px;
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  border-bottom: 1px solid rgb(26, 26, 26);
+}
+
+.productView .col3 select option .txt1 {
+  position: relative;
+  right: 100px;
+}
+
+.productView .col3 .btn {
+  display: flex;
+  gap: 10px;
+}
+
+.productView .col3 button {
+  width: 90%;
+  padding: 10px;
+  margin-top: 10px;
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(26, 26, 26);
+  cursor: pointer;
+  border: none;
+}
+
+.productView .col3 button:hover {
+  background-color: #66676E;
+}
+
+.productView .col3 .heart {
+  font-family: sans-serif;
+  font-size: 45px;
+  font-weight: 10;
+  line-height: normal;
+  color: rgb(26, 26, 26);
+  border: 1px solid rgb(26, 26, 26);
+  margin-top: 10px;
+  cursor: pointer;
+
+}
+
+.productView .col3 .heart:hover {
+  border: 2px solid rgb(26, 26, 26);
+}
+
+.productView .col3 table {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.productView .col3 table .hd1 {
+  border: 1px solid rgb(26, 26, 26);
+  text-align: left;
+}
+
+.productView .col3 table .hd2 {
+  text-align: right;
+  padding: 20px;
+  /* justify-content: space-between; */
+}
+
+/* SINGLEPRODUCT PAGE ENDS */
+
+/* LOGIN PAGE STARTS */
+
+.loginNav {
+  width: 100%;
+  height: 50px;
+}
+
+.loginNav img {
+  width: 150px;
+  margin-left: 200px;
+  margin-top: 20px;
+}
+
+.login {
+  height: 460px;
+  border-bottom: 1px solid rgb(170, 170, 170);
+}
+
+.form {
+  width: 25%;
+  margin: 20px auto;
+  padding: 10px;
+}
+
+.form div {
+  margin-bottom: 30px;
+}
+
+.form h1 {
+  font: HelveticaNow, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 16px;
+  color: rgb(26, 26, 26);
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.form .emailLabel {
+  background-color: rgb(26, 26, 26);
+  color: white;
+}
+
+.form div input,
+.form div textarea {
+  display: block;
+  width: 100%;
+  padding: 20px;
+  border: 1px solid rgb(26, 26, 26);
+  margin-top: 4px;
+  font: HelveticaNow, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgb(26, 26, 26);
+}
+
+.form div input:hover {
+  border: 2px solid rgb(26, 26, 26);
+}
+
+.form div label {
+  font: HelveticaNow, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  color: rgb(26, 26, 26);
+  margin-bottom: 20px;
+  border: 1px solid rgb(26, 26, 26);
+  padding: 5px;
+}
+
+.form div button {
+  cursor: pointer;
+  display: block;
+  width: 110%;
+  border: 1px solid #222222;
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+  background-color: #222222;
+  padding: 20px;
+}
+
+.form div button:hover {
+  background-color: #66676E;
+}
+
+.form .regLink h1 {
+  font: HelveticaNow, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  color: rgb(99, 40, 224);
+}
+
+.form .regLink h1:hover {
+  border-bottom: 2px solid rgb(99, 40, 224);
+  width: 51%;
+
+}
+
+.reg {
+  width: 25%;
+  height: 200px;
+  margin: 20px auto;
+  padding: 10px;
+}
+
+.reg .regBtn button {
+  cursor: pointer;
+  display: block;
+  width: 110%;
+  background-color: transparent;
+  border: 2px solid #222222;
+  color: rgb(26, 26, 26);
+  font-size: 14px;
+  font-weight: 700;
+  padding: 20px;
+}
+
+.reg .regBtn button a{
+  color: rgb(26, 26, 26);
+}
+
+.reg .regBtn button:hover {
+  background-color: #66676E;
+  color: white;
+}
+
+.reg h1{
+  font: HelveticaNow, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 16px;
+  color: rgb(26, 26, 26);
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.regFooter{
+  width: 30%;
+  height: 150px;
+  margin: 5px auto;
+  justify-content: center;
+  align-items: center;
+  margin-top: -50px;
+}
+
+.regFooter .footerTop ul{
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  justify-content: center;
+}
+
+.regFooter .footerTop ul li{
+  justify-content: center;
+  margin-left: 19px;
+}
+
+.regFooter .footerBottom{
+  display: flex;
+  margin-top: 30px;
+  width: 100%;
+}
+
+.regFooter .footerBottom img{
+  padding-left: 250px;
+  width: 100px;
+  height: 20px;
+}
+
+.regFooter .footerBottom input{
+  background-color: white;
+  border: none;
+  padding: 10px;
+  position: relative;
+  right: 80px;
+  cursor: default;
+}
+
+/* LOGIN PAGE ENDS */
+
+
+/* REGISTER PAGE STARTS */
+
+.registerNav {
+  width: 100%;
+  height: 50px;
+}
+
+.register{
+  width: 100%;
+  height: 180px;
+  border-bottom: 1px solid rgb(170, 170, 170);
+}
+
+.registerLogin{
+  width: 25%;
+  margin: 20px auto;
+  padding: 10px;
+}
+
+.registerLogin button{
+    cursor: pointer;
+    display: block;
+    width: 110%;
+    background-color: transparent;
+    border: 2px solid #222222;
+    color: rgb(26, 26, 26);
+    font-size: 14px;
+    font-weight: 700;
+    padding: 20px;
+}
+  
+.registerLogin button a{
+    color: rgb(26, 26, 26);
+}
+  
+.registerLogin button:hover {
+    background-color: #66676E;
+    color: white;
+  }
+  
+.registerLogin h1{
+    font: HelveticaNow, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 16px;
+    color: rgb(26, 26, 26);
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.form .regTag{
+  display: flex;
+  gap: 5px;}
+
+/* Form Validation */
+.form span{
+  color: red;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.adminBanner .createProductBanner form span{
+  color: red;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 20px;
+  margin-top: -30px;
+}
+
+.form .regTag h1 {
+  font: HelveticaNow, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 10;
+  line-height: 24px;
+  color: rgb(26, 26, 26);
+  margin-top: -20px;
+  gap: 10px;
+}
+.regTagIcon{
+  margin-top: -16px;
+}
+
+.regOpt{
+  margin-top: -30px;
+}
+
+.regOpt h5{
+  font: HelveticaNow, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgb(26, 26, 26);
+  margin-top: -20px;
+}
+
+.regOpt p{
+  font: HelveticaNow, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: rgb(102, 103, 110);
+  margin-top: 10px;
+}
+
+/* .regOption div input{
+  width: 500px;
+} */
+
+.regOption div{
+  /* width: 50%; */
+  height: 20px;
+  display: flex;
+  /* padding: 0%; */
+  /* margin: 20px; */
+
+}
+
+.regOption div label {
+  font: HelveticaNow, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgb(26, 26, 26);
+  justify-content: space-between;
+  /* margin: 10px; */
+}
+
+.registerBtn button{
+  cursor: pointer;
+  display: block;
+  width: 110%;
+  border: none;
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+  background-color: #C4C4C4;
+  padding: 20px;
+}
+
+.registerBtn button:hover {
+  background-color: #66676E;
+}
+/* REGISTER PAGE ENDS */
+
+/* CART CSS STARTS */
+
+.cartView{
+  width: 72%;
+  height: auto;
+  background-color: #F3F3F3;
+  position: relative;
+  left: 230px;
+  padding: 20px;
+}
+
+.cartView .col1{
+  width: 65%;
+}
+
+.cartView .col1 .wrapper{
+  background-color: white;
+  padding: 20px;
+}
+
+.cartView .col1 .wrapper h1{
+  font-family: Arial, "Arial Unicode MS", Helvetica, "DejaVu Sans", "Lucida Sans Unicode", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  color: rgb(26, 26, 26);
+}
+
+.cartView .col1 .wrapper h5{
+  font-family: Arial, "Arial Unicode MS", Helvetica, "DejaVu Sans", "Lucida Sans Unicode", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  color: rgb(47, 95, 180);
+  margin-top: 20px;
+}
+
+
+.cartView .col1 .wrapper p{
+  font-family: Arial, "Arial Unicode MS", Helvetica, "DejaVu Sans", "Lucida Sans Unicode", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 18px;
+  color: rgb(26, 26, 26);
+  margin-top: 30px;
+}
+
+.cartView .col1 .wrapper .cartCard{
+  display: grid;
+  grid-template-rows: repeat(1);
+  grid-row-start: auto;
+  margin-top: 20px;
+}
+
+.cartCard .card{
+  display: flex;
+  justify-content: space-between;
+}
+
+.cartCard .card .col1{
+  width: 40%;
+  display: flex;
+  gap: 10px;
+}
+
+.cartCard .card .col1 img{
+  width: 30%;
+
+}
+
+.cartCard .card .col1 h1{
+  font-family: Arial, "Arial Unicode MS", Helvetica, "DejaVu Sans", "Lucida Sans Unicode", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  color: rgb(102, 102, 102);
+}
+
+.cartCard .card .col1 p{
+  font-family: Arial, "Arial Unicode MS", Helvetica, "DejaVu Sans", "Lucida Sans Unicode", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 18px;
+  color: rgb(153, 153, 153);
+  margin-top: 45px;
+}
+
+.cartCard .card .col1 a{
+  color: rgb(153, 153, 153);
+}
+
+.cartCard .card .col2 select{
+  width: 100px;
+  padding: 10px;
+}
+.cartCard .card .col2 h1{
+  font-family: Arial, "Arial Unicode MS", Helvetica, "DejaVu Sans", "Lucida Sans Unicode", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18px;
+  text-align: right;
+  color: rgb(26, 26, 26);
+  margin-top: 80px;
+}
+
+.cartView .col1 .wrapper2{
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.cartView .col1 .wrapper2 h1{
+  font-family: Arial, "Arial Unicode MS", Helvetica, "DejaVu Sans", "Lucida Sans Unicode", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  color: rgb(26, 26, 26);
+}
+
+.cartView .col1 .wrapper2 p{
+  font-family: Arial, "Arial Unicode MS", Helvetica, "DejaVu Sans", "Lucida Sans Unicode", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: rgb(26, 26, 26);
+  margin-top: 40px;
+}
+
+
+/* CART CSS ENDS */
+
+/* DASHBOARD CSS STARTS */
+
+.overflow{
+  overflow: hidden;
+}
+
+.adminPage{
+  display: flex;
+}
+
+.container{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  padding-left: 190px;
+  padding-right: 190px;
+}
+
+.sideBar{
+  width: 17%;
+  height: 85vh;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+  border: 1px solid rgb(211, 208, 208);
+  border-right: none;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  padding: 30px;
+  margin-top: 20px;
+}
+
+.sideBar:hover{
+  box-shadow: 0px 5px 5px rgba(0,0,0,0.5);
+}
+
+.sideBar .logo p{
+  font: HelveticaNow, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 200;
+  line-height: 24px;
+  color: rgb(26, 26, 26);
+}
+
+.dBoard{
+  width: 90%;
+  margin-top: 20px;
+  background-color: #FF6900;
+  margin-top: 80px;
+  cursor: alias;
+}
+
+.dBoard h1{
+  font: HelveticaNow, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 24px;
+  color: white;
+  justify-content: space-between;
+  padding: 10px;
+  cursor: alias;
+}
+
+
+.dashBoard{
+  width: 90%;
+  box-shadow: 0px 0px 4px rgba(0,0,0,0.5);
+  margin-top: 80px;
+}
+
+.dashBoard h1{
+  font: HelveticaNow, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 200;
+  line-height: 24px;
+  color: rgb(26, 26, 26);
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.dashBoard h1:hover{ 
+  color: white;
+  background-color: rgb(26, 26, 26);
+ 
+}
+
+.productDashboard{
+  width: 90%;
+  box-shadow: 0px 0px 4px rgba(0,0,0,0.5);
+  margin-top: 20px;
+
+}
+
+.productDashboard h1{
+  font: HelveticaNow, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 200;
+  line-height: 24px;
+  color: rgb(26, 26, 26);
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.productDashboard h1:hover{ 
+  color: white;
+  background-color: rgb(26, 26, 26);
+ 
+}
+
+.createProduct{
+  width: 90%;
+  box-shadow: 0px 0px 4px rgba(0,0,0,0.5);
+  margin-top: 20px;
+}
+
+.createProduct h1{
+  font: HelveticaNow, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 200;
+  line-height: 24px;
+  color: rgb(26, 26, 26);
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.createProduct h1:hover{ 
+  color: white;
+  background-color: rgb(26, 26, 26);
+ 
+}
+
+.users{
+  width: 90%;
+  box-shadow: 0px 0px 4px rgba(0,0,0,0.5);
+  margin-top: 20px;
+}
+
+.users h1{
+  font: HelveticaNow, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 200;
+  line-height: 24px;
+  color: rgb(26, 26, 26);
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.users h1:hover{ 
+  color: white;
+  background-color: rgb(26, 26, 26);
+}
+
+.LoginReg{
+  width: 90%;
+  box-shadow: 0px 0px 4px rgba(0,0,0,0.5);
+  margin-top: 20px;
+}
+
+.LoginReg h1{
+  font: HelveticaNow, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 200;
+  line-height: 24px;
+  color: rgb(26, 26, 26);
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.LoginReg h1:hover{ 
+  color: white;
+  background-color: rgb(26, 26, 26);
+}
+
+.dashboardBanner{
+  width: 48%;
+  height: 85vh;
+  border: 1px solid rgb(211, 208, 208);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 30px;
+  margin-top: 20px;
+}
+
+.dashboardBanner:hover{
+  box-shadow: 05px 0px 5px rgba(0,0,0,0.5);
+}
+
+.banner1{
+  width: 100%;
+  height: 200px;
+  background-image: url('./components/dashboard/img/img2.webp');
+  background-size: cover;  
+  justify-content: center;
+  align-items: center;
+}
+
+.banner1 button{
+  width: 15%;
+  position: relative;
+  left: 320px;
+  top: 150px;
+  background-color: transparent;
+  border: 2px solid #b3b1b1;
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.b2 button{
+  width: 20%;
+  position: relative;
+  left: 308px;
+  top: 150px;
+  background-color: transparent;
+  border: 2px solid #b3b1b1;
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.banner1 button a{
+  color: rgb(26, 26, 26);
+}
+
+.banner1 button:hover {
+  background-color: #66676E;
+  color: white;
+}
+
+.banner2{
+  display: flex;
+  gap: 10px;
+  cursor: default;
+}
+
+
+
+.banner2 .totalProduct{
+  width: 30%;
+  background-color: #F9EFE5;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.banner2 .totalProduct h1{
+  font: HelveticaNow, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #1D3352;
+  border: 2px solid white;
+  text-align: center;
+  justify-content: space-between;
+  cursor: default;
+
+}
+
+.banner3{
+  width: 100%;
+  height: 430px;
+
+}
+
+.banner3 table{
+  margin-top: 20px;
+  background-color: #F9EFE5;
+  border: none;
+  
+}
+
+.banner3 table thead{
+  border-top: none;
+}
+
+.banner3 table td{
+  font: HelveticaNow, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: 200;
+  line-height: 24px;
+  color: rgb(26, 26, 26);
+  text-align: center;
+  border-top: 1px solid rgb(26, 26, 26);
+  border-right: 1px solid rgb(26, 26, 26);
+}
+
+.banner3 table .tdnone{
+  border-right: none;
+}
+
+.banner3 table .tdtop{
+  border-top: none;
+}
+
+.banner3 table td img{
+  width: 30px;
+  padding: 5px;
+}
+
+
+
+/* DASHBOARD CSS ENDS */
+
+/* ADMIN PRODUCTVIEW CSS START */
+
+.board{
+  width: 90%;
+  margin-top: 20px;
+  background-color: #FF6900;
+  cursor: alias;
+}
+
+.board h1{
+  font: HelveticaNow, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 24px;
+  color: white;
+  justify-content: space-between;
+  padding: 10px;
+  cursor:alias;
+}
+
+
+
+.productViewBanner{
+  overflow: hidden;
+
+}
+
+.productViewBanner:hover{
+  scrollbar-width: thin;
+  scrollbar-color: black;
+  overflow: hidden;
+  overflow-y: scroll ;
+
+}
+
+
+.productBanner .pdView{
+  margin-top: 20px;
+}
+
+.productBanner .pdView h1{
+  font: HelveticaNow, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #1D3352;
+}
+
+.banner3 .pdCard{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(5, 2fr);
+  column-gap: 5px;
+}
+
+.banner3 .pdCard .cardView{
+  height: 180px;
+  padding: 5px;
+  border: 1px solid #F9EFE5;
+
+}
+
+.banner3 .pdCard .cardView:hover  {
+  background-color: #c0bebe;
+  color: white;
+
+}
+
+.banner3 .pdCard .cardView img{
+  width: 100%;
+  height: 80px;
+}
+
+.banner3 .pdCard .cardView h1{
+  font: HelveticaNow, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  color: rgb(26, 26, 26);
+  text-align: left;
+}
+
+.banner3 .pdCard .cardView h2{
+  font: HelveticaNow, Helvetica, sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+  color: rgb(26, 26, 26);
+  text-align: left;
+}
+
+.banner3 .pdCard .cardView .pdtxt{
+  font: HelveticaNow, Helvetica, sans-serif;
+  font-weight: 700;
+  display: flex;
+  margin-top: 5px;
+  justify-content: space-between;
+}
+
+.cardView .pdBtn{
+  width: 100%;
+  /* justify-content: space-between; */
+  display: flex;
+  gap: 5px;
+}
+
+.cardView .pdBtn button{
+  width: 50%;
+  padding: 5px;
+  gap: 20px;
+  border-radius: none;
+  border: none;
+  cursor: pointer;
+  justify-content: space-between;
+}
+
+
+/* ADMIN PRODUCTVIEW CSS ENDS */
+
+/* CREATEPRODUCT CSS STARTS */
+.createProductBanner{
+  width: 100%;
+  background-color: #F9EFE5;
+  margin-top: 20px;
+}
+/* .form-container{width: 97%;  padding: 10px;} */
+.createProductBanner form{width: 80%; background-color: transparent; margin: auto; padding: 20px; border-radius: 10px;}
+.createProductBanner form input{display: block; background-color: transparent; margin: auto; width: 90%; height: 30px; border-radius: 2px; margin: 20px; border: 2px solid #dadada; padding: 10px; outline: none;}
+.createProductBanner form button{display: block; width: 180px; color: white; background-color: rgb(26, 26, 26); border: 0px; padding: 10px 50px; margin: auto;}
+
+
+/* CREATEPRODUCT CSS ENDS */
+
+/* USERS CSS STARTS */
+
+table .th td{
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  color: white;
+  border: none;
+  background-color: #1A314E;
+  border-radius: 5px;
+  
+}
+
+table .tb td{
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  border: none;
+  background-color: white;
+  border-radius: 5px;
+  
+}
+
+ .Btn1:hover{
+  background-color: rgb(26, 26, 26);
+}
+
+  .Btn2:hover{
+  background-color: rgb(180, 179, 179);
+}
+
+ .Btn1{
+  background-color: green;
+  color: white;
+  /* margin-top: 5px; */
+}
+
+ .Btn2{
+  background-color: #1D3450;
+  color: white;
+  /* margin-top: 5px; */
+
+}
+
+
+table button{
+  width: 50%;
+  padding: 5px;
+  gap: 10px;
+  border-radius: none;
+  border: none;
+  cursor: pointer;
+}
+
+table .pdBtn .Btn1:hover{
+  background-color: rgb(26, 26, 26);
+}
+
+table  .Btn2:hover{
+  background-color: rgb(180, 179, 179);
+}
+
+table  .Btn1{
+  background-color: green;
+  color: white;
+}
+
+table .pdBtn .Btn2{
+  background-color: #1D3450;
+  color: white;
+}
+
+
+/* USERS CSS ENDS */
+
+/* ADMIN LOGIN CSS STARTS */
+
+.adminContainer{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  position: relative;
+  left: 200px;
+}
+
+.adminBanner{
+  width: 48%;
+  height: 85vh;
+  border: 1px solid rgb(211, 208, 208);
+  border-radius: 10px;
+  padding: 30px;
+  margin-top: 40px;
+}
+
+.adminBanner h1{
+  font: HelveticaNow, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 16px;
+  color: rgb(26, 26, 26);
+  margin-top: 80px;
+  text-align: center  ;
+}
+
+.adminbanner3{
+  width: 100%;
+  height: 350px;
+  border-radius: 10px;
+  margin-top: 20px;
+  border: 1px solid rgb(211, 208, 208);
+}
+
+.adminForm form{
+  margin-top: 30px;
+}
+
+.adminForm2{
+  width: 97%;
+  background-color: #F9EFE5;
+  margin-top: 20px;
+  height: 420px;
+  margin: 10px;
+  /* height: 350px; */
+  border-radius: 10px;
+  border: 1px solid rgb(211, 208, 208);
+}
+
+.adminForm2 form{
+  padding: 20px;
+}
+
+.adminForm2 form input{
+  width: 92%;
+  padding: 15px;
+  background: transparent;
+  margin: 10px;
+  border: 1px solid rgb(211, 208, 208);
+
+}
+
+.adminForm2 form span{
+  color: red;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+
+ .adminForm2 form button {
+  width: 96%;
+  cursor: pointer;
+  border: 1px solid #222222;
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+  background-color: #222222;
+  padding: 15px;
+  margin: 10px;
+}
+
+.adminForm2 form button:hover {
+  background-color: #66676E;
+}
+/* .createProductBanner{
+  width: 100%;
+  background-color: #F9EFE5;
+  margin-top: 20px;
+} */
+
+
+.adminForm form input{
+  width: 90%;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.adminForm form label{
+  padding: 5px;
+}
+
+.adminBanner .loginNav {
+  width: 50%;
+  position: relative;
+  left: 200px;
+}
+
+.adminBanner .loginNav img {
+  width: 30%;
+  position: relative;
+  right: 70px;
+  /* margin-left: 200px; */
+  /* margin-top: 20px; */
+}
+
+.adminbanner3 label{
+  padding: 20px;
+  font: HelveticaNow, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 16px;
+  color: rgb(26, 26, 26);
+  margin-top: 80px;
+}
+
+.adminbanner3 .regLink{
+  width: 90%;
+  padding: 30px;
+  justify-content: space-between;
+  display: flex;
+  
+}
+
+
+.adminbanner3 .regLink h1{
+  font: HelveticaNow, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+  color: rgb(26, 26, 26);
+  margin-top: 50px;
+  text-align: center;
+}
+
+.adminregister{
+  width: 100%;
+  height: 550px;
+  border-radius: 10px;
+}
+
+.adminregister form input{
+  border-radius: 5px;
+}
+
+.adminregister label{
+  padding: 20px;
+  font: HelveticaNow, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 16px;
+  color: rgb(26, 26, 26);
+  margin-top: 80px;
+}
+
+/* ADMIN CSS ENDS */
