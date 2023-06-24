@@ -1,4 +1,4 @@
-import CreateProduct from "../CreateProduct";
+import CreateProduct from "../CreateProducts";
 
 function CreateProductPage() {
     return (

@@ -27,15 +27,11 @@ export function CreateProduct() {
 
 
     const AddProduct = (e) => {
-    // async function AddProduct()
+    // async function AddProduct(){
         e.preventDefault();
 
-        // const file = e.target.files[0];
         const formData = new FormData();
-
-
-        // const formData = new FormData();
-        formData.append("product", product);
+        formData.append("product", product.image);
 
 
         if (
@@ -50,15 +46,15 @@ export function CreateProduct() {
 
         } else {
 
-                fetch('http://159.65.21.42:9000/create/product', {
-                method: 'POST',
-                body: formData
-            });
+            //     let result = await fetch('http://159.65.21.42:9000/create/product', {
+            //     method: 'POST',
+            //     body: formData
+            // });
 
             // axios
             //     .post('http://159.65.21.42:9000/create/product', product)
             //     .then(data => {
-
+            //         
             //         setProduct({
             //             image: "",
             //             category: "",
@@ -67,15 +63,15 @@ export function CreateProduct() {
             //             description: "",
             //             quantity: "",
             //         })
-            //         console.log(data);
-            //         alert("registration successful")
+            //         console.log(product.image);
+            //         // alert("registration successful")
             //         // navigate("/admin/dashboard")
             //     })
             //     .catch(error => {
             //         alert(error);
             //         console.log(error);
             //     })
-            // setError(false);
+            setError(false);
 
             console.log(product)
         }
@@ -115,8 +111,8 @@ export function CreateProduct() {
 
                     <div className="banner3 createProductBanner">
 
-                        <form onSubmit={AddProduct}>
-                            <input type="file" onChange={(e) => setProduct({ ...product, image: e.target.files[0] })} placeholder="Image" />
+                        <form onSubmit={AddProduct} action="http://159.65.21.42:9000/create/product" method="post" encType="multipart/form-data">
+                            <input type="file" onChange={(e) => setProduct({ ...product, image: e.target.files[0] })}  />
                             {error === true && product.image === "" ? <span>This Field is required</span> : null}
                             <input type="text" onChange={(e) => setProduct({ ...product, category: e.target.value })} value={product.category} placeholder="Category" />
                             {error === true && product.category === "" ? <span>This Field is required</span> : null}

@@ -19,7 +19,7 @@ export function ProductView() {
             .then((data) => {
 
                 const filterCategory = data.filter((prod) => {
-                    return (prod.category === "shein");
+                    return (prod.category === "Zalando");
                 })
                 setProduct(filterCategory)
                 setLoading(false)
@@ -77,7 +77,7 @@ export function ProductView() {
                                             <h2>{product.description}</h2>
                                         </div>
                                         <div className="pdtxt">
-                                            <p>{product.price}</p>
+                                            <p>${product.price}</p>
                                             <p>stock: <span>{product.quantity}</span></p>
                                         </div>
                                         <div className="pdBtn"><button className="Btn1">Edit</button><button className="Btn2">Delete</button></div>
