@@ -1,8 +1,10 @@
 import React from "react";
 // import ShopBlog from "./ShopBlog";
 import { AiOutlineHeart } from "react-icons/ai";
-import { Link } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import { BsTruck } from "react-icons/bs";
+import { useState, useEffect } from "react";
+
 // import Pix1 from "./shop/img34.jpg";
 // import Pix2 from "./shopimg/img31.jpg";
 import Pix3 from "./shop/img32.jpg";
@@ -10,22 +12,47 @@ import Pix4 from "./shop/img4.jpg";
 import Pix5 from "./shop/img5.jpg";
 
 export function SingleProduct() {
+
+    const { id } = useParams ();
+    const [product, setProduct] = useState({});
+    const [loading, setLoading] = useState(true);
+
+    useEffect(() => {
+
+        if(loading) {
+            fetch('http://159.65.21.42:9000/product/' + id)
+            .then((resp) => resp.json())
+            .then((data) => {
+                setProduct(data)
+                setLoading(false)
+                
+            });
+            
+        }
+        // console.log(product);
+    }, [loading, product]);
+
     return (
         <div className="singleProduct">
-            <div className="productView">
+            {
+                        loading === true ? (
+                            <div>Data loading, please wait</div>
+                        )
+                    :(
+                        <div className="productView">
                 <div className="col1">
-                    <img src={Pix3} className="pix1" alt="" />
-                    <img src={Pix4} className="pix2" alt="" />
+                <img src={`http://159.65.21.42:9000${product.image}`}className="pix1" alt="" />
+                    <img src={`http://159.65.21.42:9000${product.image}`} className="pix2" alt="" />
                 </div>
                 <div className="col2">
-                    <img src={Pix5} className="pix3" alt="" />
+                    <img src={`http://159.65.21.42:9000${product.image}`} className="pix3" alt="" />
                 </div>
                 <div className="col3">
-                    <h1><Link to="/">AllSaints</Link></h1>
-                    <h2>HAWTHORNE - Shirt</h2>
+                    <h1><Link to="/">{product.name}</Link></h1>
+                    <h2>{product.description}</h2>
                     <span className="disc">43% off</span>
                     <div>
-                        <h3>£54.00 <span>£89.99</span></h3>
+                        <h3>£{product.price} <span>£89.99</span></h3>
                     </div>
                     <p>Colour: <span className="txt">stereo grey</span></p>
                     <div className="imageView">
@@ -70,6 +97,8 @@ export function SingleProduct() {
                     </table>
                 </div>
             </div>
+                     )} 
+            
             <div className="productCard">
                 <h1 className="word"> Similar items</h1>
                 <h3>How about these?</h3>

@@ -57,8 +57,24 @@ export function Cart() {
                     </div>
                 </div>
                 <div className="col2">
-                    <div className="wrappe">
+                    <div className="wrapper3">
+                        <div className="txtBanner">
+                            <p><AiOutlineInfoCircle /></p>
+                            <p>If your bag is over £35.00 you will qualify for free delivery.</p>
+                        </div>
                         <h1>Total</h1>
+                        <div className="priceCal">
+                            <p>Subtotal</p>
+                            <p>£29.99</p>
+                        </div>
+                        <div className="priceCal">
+                            <p>Delivery</p>
+                            <p>£29.99</p>
+                        </div>
+                        <div className="priceCal">
+                            <h1>Total (VAT included)</h1>
+                            <h1>£33.98</h1>
+                        </div>
                     </div>
                 </div>
             </div>
