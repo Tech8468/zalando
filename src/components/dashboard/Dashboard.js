@@ -1,9 +1,32 @@
 import { Link } from "react-router-dom";
 import logo from "./img/logo_default.svg";
-import Pix1 from "./img/img2.webp";
+import { useEffect, useState } from "react";
 
 
 export function Dashboard() {
+
+    const [product, setProduct] = useState([]);
+    const [loading, setLoading] = useState(true);
+
+    useEffect(() => {
+        // e.preventDefault();
+
+
+        fetch("http://159.65.21.42:9000/products")
+            .then((resp) => resp.json())
+            .then((data) => {
+
+                const filterCategory = data.filter((prod) => {
+                    return (prod.category === "Zalando");
+                })
+                setProduct(filterCategory)
+                setLoading(false)
+                // console.log(product);
+            });
+
+    }, []);
+
+
     return (
         <div className="overflow">
             <div className="container">
@@ -25,120 +48,64 @@ export function Dashboard() {
                         <div><Link to="/admin/users"><h1>Users</h1></Link></div>
                     </div>
                     <div className="LoginReg">
-                        <div><Link to="/admin"><h1>Login user/Register user</h1></Link></div>
+                        <div><Link to="/admin"><h1>Create user</h1></Link></div>
                     </div>
                 </div>
                 <div className="dashboardBanner">
-            <div className="banner1">
-                <button>Go to Cart</button>
-            </div>
-            <div className="banner2">
-                <div className="totalProduct">
-                    <Link to="/"><h1>Product: <span>52</span></h1></Link>
+                    <div className="banner1">
+                        <button>Go to Cart</button>
+                    </div>
+                    <div className="banner2">
+                        <div className="totalProduct">
+                            <Link to="/"><h1>Product: <span>52</span></h1></Link>
+                        </div>
+                        <div className="totalProduct">
+                            <Link to="/"><h1>Users: <span>8</span></h1></Link>
+                        </div>
+                        <div className="totalProduct">
+                            <Link to="/"><h1>Cart: <span>24</span></h1></Link>
+                        </div>
+                    </div>
+                    <div className="banner3">
+                        <table width="100%" cellPadding={10}>
+                            <thead className="th">
+                                <tr>
+                                    <td className="tdtop">
+                                        Image
+                                    </td>
+                                    <td className="tdtop">
+                                        Product name
+                                    </td>
+                                    <td className="tdtop">
+                                        Discription
+                                    </td>
+                                    <td className="tdtop">
+                                        Price
+                                    </td>
+                                    <td className="tdnone tdtop">
+                                        N0. in stock
+                                    </td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {loading === true ? (
+                                    <div>Loading, please wait...</div>
+                                ) : (
+                                    product.map((product) => (
+                                        <tr>
+                                            <td><img src={'http://159.65.21.42:9000' + product.image} alt="Products" /></td>
+                                            <td>{product.name}</td>
+                                            <td>{product.description}</td>
+                                            <td>£{product.price}</td>
+                                            <td className="tdnone">{product.quantity}</td>
+                                        </tr>
+                                    ))
+                                )
+                                }
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
-                <div className="totalProduct">
-                    <Link to="/"><h1>Users: <span>8</span></h1></Link>
-                </div>
-                <div className="totalProduct">
-                    <Link to="/"><h1>Cart: <span>24</span></h1></Link>
-                </div>
-            </div>
-            <div className="banner3">
-                <table width="100%" cellPadding={10}>
-                    <thead className="th">
-                        <tr>
-                            <td className="tdtop">
-                                Image
-                            </td>
-                            <td className="tdtop">
-                                Product name
-                            </td>
-                            <td className="tdtop">
-                                Discription
-                            </td>
-                            <td className="tdtop">
-                                Price
-                            </td>
-                            <td className="tdnone tdtop">
-                                N0. in stock
-                            </td>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td><img src={Pix1} alt="" /></td>
-                            <td>Redefined Rebel</td>
-                            <td>TUCKER TEE - Print T-shirt - deep teal</td>
-                            <td>£25.99</td>
-                            <td className="tdnone">10</td>
-                        </tr>
-                        <tr>
-                            <td><img src={Pix1} alt="" /></td>
-                            <td>Redefined Rebel</td>
-                            <td>TUCKER TEE - Print T-shirt - deep teal</td>
-                            <td>£25.99</td>
-                            <td className="tdnone">10</td>
-                        </tr>
-                        <tr>
-                            <td><img src={Pix1} alt="" /></td>
-                            <td>Redefined Rebel</td>
-                            <td>TUCKER TEE - Print T-shirt - deep teal</td>
-                            <td>£25.99</td>
-                            <td className="tdnone">10</td>
-                        </tr>
-                        <tr>
-                            <td><img src={Pix1} alt="" /></td>
-                            <td>Redefined Rebel</td>
-                            <td>TUCKER TEE - Print T-shirt - deep teal</td>
-                            <td>£25.99</td>
-                            <td className="tdnone">10</td>
-                        </tr>
-                        <tr>
-                            <td><img src={Pix1} alt="" /></td>
-                            <td>Redefined Rebel</td>
-                            <td>TUCKER TEE - Print T-shirt - deep teal</td>
-                            <td>£25.99</td>
-                            <td className="tdnone">10</td>
-                        </tr>
-                        <tr>
-                            <td><img src={Pix1} alt="" /></td>
-                            <td>Redefined Rebel</td>
-                            <td>TUCKER TEE - Print T-shirt - deep teal</td>
-                            <td>£25.99</td>
-                            <td className="tdnone">10</td>
-                        </tr>
-                        <tr>
-                            <td><img src={Pix1} alt="" /></td>
-                            <td>Redefined Rebel</td>
-                            <td>TUCKER TEE - Print T-shirt - deep teal</td>
-                            <td>£25.99</td>
-                            <td className="tdnone">10</td>
-                        </tr>
-                        <tr>
-                            <td><img src={Pix1} alt="" /></td>
-                            <td>Redefined Rebel</td>
-                            <td>TUCKER TEE - Print T-shirt - deep teal</td>
-                            <td>£25.99</td>
-                            <td className="tdnone">10</td>
-                        </tr>
-                        <tr>
-                            <td><img src={Pix1} alt="" /></td>
-                            <td>Redefined Rebel</td>
-                            <td>TUCKER TEE - Print T-shirt - deep teal</td>
-                            <td>£25.99</td>
-                            <td className="tdnone">10</td>
-                        </tr>
-                        <tr>
-                            <td><img src={Pix1} alt="" /></td>
-                            <td>Redefined Rebel</td>
-                            <td>TUCKER TEE - Print T-shirt - deep teal</td>
-                            <td>£25.99</td>
-                            <td className="tdnone">10</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
             </div>
         </div>
     )

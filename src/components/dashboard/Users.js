@@ -26,7 +26,7 @@ export function UsersLog() {
                         <div><h1>Users</h1></div>
                     </div>
                     <div className="LoginReg">
-                        <div><Link to="/admin"><h1>Login user/Register user</h1></Link></div>
+                        <div><Link to="/admin"><h1>Create user</h1></Link></div>
                     </div>
                 </div>
                 <div className="dashboardBanner productBanner">

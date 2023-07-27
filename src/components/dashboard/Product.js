@@ -14,7 +14,7 @@ export function ProductView() {
         // e.preventDefault();
 
 
-        fetch('http://159.65.21.42:9000/products')
+        fetch("http://159.65.21.42:9000/products")
             .then((resp) => resp.json())
             .then((data) => {
 
@@ -51,7 +51,7 @@ export function ProductView() {
                         <div><Link to="/admin/users"><h1>Users</h1></Link></div>
                     </div>
                     <div className="LoginReg">
-                        <div><Link to="/admin"><h1>Login user/Register user</h1></Link></div>
+                        <div><Link to="/admin"><h1>Create user</h1></Link></div>
                     </div>
                 </div>
                 <div className="dashboardBanner productBanner">
@@ -66,11 +66,11 @@ export function ProductView() {
                                 <div>Loading, please wait...</div>
                             ) : (
                                 product.map((product) => (
-                                    <div className="cardView">
+                                    <div className="cardView" >
                                         <div>
-                                            <img src={product.image} alt="product" />
+                                            <img src={'http://159.65.21.42:9000' + product.image} alt="product" />
                                         </div>
-                                        <div>
+                                        <div className="pdName">
                                             <h1>{product.name}</h1>
                                         </div>
                                         <div>
@@ -80,7 +80,10 @@ export function ProductView() {
                                             <p>${product.price}</p>
                                             <p>stock: <span>{product.quantity}</span></p>
                                         </div>
-                                        <div className="pdBtn"><button className="Btn1">Edit</button><button className="Btn2">Delete</button></div>
+                                        <div className="pdBtn">
+                                            <button className="Btn1">Edit</button>
+                                            <button className="Btn2">Delete</button>
+                                        </div>
                                     </div>
                                 ))
                             )

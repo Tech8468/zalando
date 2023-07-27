@@ -83,7 +83,7 @@ export function CreateProduct() {
                         <div><Link to="/admin/users"><h1>Users</h1></Link></div>
                     </div>
                     <div className="LoginReg">
-                        <div><Link to="/admin"><h1>Login user/Register user</h1></Link></div>
+                        <div><Link to="/admin"><h1>Create user</h1></Link></div>
                     </div>
                 </div>
                 <div className="dashboardBanner">
