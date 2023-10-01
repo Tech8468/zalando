@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import logo from "./img/logo_default.svg";
 import { useEffect, useState } from "react";
-
+import { Puff } from 'react-loading-icons';
 
 export function Dashboard() {
 
@@ -48,14 +48,14 @@ export function Dashboard() {
                         <div><Link to="/admin/users"><h1>Users</h1></Link></div>
                     </div>
                     <div className="LoginReg">
-                        <div><Link to="/admin"><h1>Create user</h1></Link></div>
+                        <div><Link to="/admin/userregister"><h1>Create user</h1></Link></div>
                     </div>
                 </div>
                 <div className="dashboardBanner">
                     <div className="banner1">
                         <button>Go to Cart</button>
                     </div>
-                    <div className="banner2">
+                    {/* <div className="banner2">
                         <div className="totalProduct">
                             <Link to="/"><h1>Product: <span>52</span></h1></Link>
                         </div>
@@ -65,8 +65,8 @@ export function Dashboard() {
                         <div className="totalProduct">
                             <Link to="/"><h1>Cart: <span>24</span></h1></Link>
                         </div>
-                    </div>
-                    <div className="banner3">
+                    </div> */}
+                    <div className="banner3 productViewBanner">
                         <table width="100%" cellPadding={10}>
                             <thead className="th">
                                 <tr>
@@ -89,7 +89,7 @@ export function Dashboard() {
                             </thead>
                             <tbody>
                                 {loading === true ? (
-                                    <div>Loading, please wait...</div>
+                                    <Puff size={100}  stroke="#FF6900" strokeOpacity={.250} speed={.5} />
                                 ) : (
                                     product.map((product) => (
                                         <tr>

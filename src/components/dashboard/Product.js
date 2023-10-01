@@ -3,6 +3,7 @@ import logo from "./img/logo_default.svg";
 // import Pix1 from "./img/img2.webp";
 // import Pix2 from "./img/img3.webp";
 import { useEffect, useState } from "react";
+import { Puff } from 'react-loading-icons'
 // import axios from "axios";
 
 
@@ -51,19 +52,20 @@ export function ProductView() {
                         <div><Link to="/admin/users"><h1>Users</h1></Link></div>
                     </div>
                     <div className="LoginReg">
-                        <div><Link to="/admin"><h1>Create user</h1></Link></div>
+                        <div><Link to="/admin/userregister"><h1>Create user</h1></Link></div>
                     </div>
                 </div>
                 <div className="dashboardBanner productBanner">
-                    <div className="banner1 b2">
+                    {/* <div className="banner1 b2">
                         <button>Go to Dashboard</button>
-                    </div>
+                    </div> */}
                     <div className="pdView"><h1>Product view</h1></div>
                     <div className="banner3 productViewBanner">
                         <div className="pdCard">
 
-                            {loading === true ? (
-                                <div>Loading, please wait...</div>
+                            {loading === true ?  (
+                                
+                                <Puff size={100}  stroke="#FF6900" strokeOpacity={.250} speed={.5} />
                             ) : (
                                 product.map((product) => (
                                     <div className="cardView" >

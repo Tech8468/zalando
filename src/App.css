@@ -1704,7 +1704,7 @@ a {
   padding: 20px;
 }
 
-.reg .regBtn button a{
+.reg .regBtn button a {
   color: rgb(26, 26, 26);
 }
 
@@ -1713,7 +1713,7 @@ a {
   color: white;
 }
 
-.reg h1{
+.reg h1 {
   font: HelveticaNow, Helvetica, sans-serif;
   font-size: 30px;
   font-weight: 700;
@@ -1723,7 +1723,7 @@ a {
   margin-bottom: 30px;
 }
 
-.regFooter{
+.regFooter {
   width: 30%;
   height: 150px;
   margin: 5px auto;
@@ -1732,31 +1732,31 @@ a {
   margin-top: -50px;
 }
 
-.regFooter .footerTop ul{
+.regFooter .footerTop ul {
   display: flex;
   list-style: none;
   gap: 30px;
   justify-content: center;
 }
 
-.regFooter .footerTop ul li{
+.regFooter .footerTop ul li {
   justify-content: center;
   margin-left: 19px;
 }
 
-.regFooter .footerBottom{
+.regFooter .footerBottom {
   display: flex;
   margin-top: 30px;
   width: 100%;
 }
 
-.regFooter .footerBottom img{
+.regFooter .footerBottom img {
   padding-left: 250px;
   width: 100px;
   height: 20px;
 }
 
-.regFooter .footerBottom input{
+.regFooter .footerBottom input {
   background-color: white;
   border: none;
   padding: 10px;
@@ -1775,61 +1775,62 @@ a {
   height: 50px;
 }
 
-.register{
+.register {
   width: 100%;
   height: 180px;
   border-bottom: 1px solid rgb(170, 170, 170);
 }
 
-.registerLogin{
+.registerLogin {
   width: 25%;
   margin: 20px auto;
   padding: 10px;
 }
 
-.registerLogin button{
-    cursor: pointer;
-    display: block;
-    width: 110%;
-    background-color: transparent;
-    border: 2px solid #222222;
-    color: rgb(26, 26, 26);
-    font-size: 14px;
-    font-weight: 700;
-    padding: 20px;
-}
-  
-.registerLogin button a{
-    color: rgb(26, 26, 26);
-}
-  
-.registerLogin button:hover {
-    background-color: #66676E;
-    color: white;
-  }
-  
-.registerLogin h1{
-    font: HelveticaNow, Helvetica, sans-serif;
-    font-size: 30px;
-    font-weight: 700;
-    line-height: 16px;
-    color: rgb(26, 26, 26);
-    margin-top: 30px;
-    margin-bottom: 30px;
+.registerLogin button {
+  cursor: pointer;
+  display: block;
+  width: 110%;
+  background-color: transparent;
+  border: 2px solid #222222;
+  color: rgb(26, 26, 26);
+  font-size: 14px;
+  font-weight: 700;
+  padding: 20px;
 }
 
-.form .regTag{
+.registerLogin button a {
+  color: rgb(26, 26, 26);
+}
+
+.registerLogin button:hover {
+  background-color: #66676E;
+  color: white;
+}
+
+.registerLogin h1 {
+  font: HelveticaNow, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 16px;
+  color: rgb(26, 26, 26);
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.form .regTag {
   display: flex;
-  gap: 5px;}
+  gap: 5px;
+}
 
 /* Form Validation */
-.form span{
+.form span {
   color: red;
   font-size: 12px;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.adminBanner .createProductBanner form span{
+.adminBanner .createProductBanner span {
   color: red;
   font-size: 12px;
   font-family: Arial, Helvetica, sans-serif;
@@ -1846,15 +1847,16 @@ a {
   margin-top: -20px;
   gap: 10px;
 }
-.regTagIcon{
+
+.regTagIcon {
   margin-top: -16px;
 }
 
-.regOpt{
+.regOpt {
   margin-top: -30px;
 }
 
-.regOpt h5{
+.regOpt h5 {
   font: HelveticaNow, Helvetica, sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -1863,7 +1865,7 @@ a {
   margin-top: -20px;
 }
 
-.regOpt p{
+.regOpt p {
   font: HelveticaNow, Helvetica, sans-serif;
   font-size: 14px;
   font-weight: 400;
@@ -1876,7 +1878,7 @@ a {
   width: 500px;
 } */
 
-.regOption div{
+.regOption div {
   /* width: 50%; */
   height: 20px;
   display: flex;
@@ -1895,7 +1897,7 @@ a {
   /* margin: 10px; */
 }
 
-.registerBtn button{
+.registerBtn button {
   cursor: pointer;
   display: block;
   width: 110%;
@@ -1910,11 +1912,12 @@ a {
 .registerBtn button:hover {
   background-color: #66676E;
 }
+
 /* REGISTER PAGE ENDS */
 
 /* CART CSS STARTS */
 
-.cartView{
+.cartView {
   width: 70%;
   height: auto;
   background-color: #F3F3F3;
@@ -1925,16 +1928,16 @@ a {
   gap: 20px;
 }
 
-.cartView .col1{
+.cartView .col1 {
   width: 65%;
 }
 
-.cartView .col1 .wrapper{
+.cartView .col1 .wrapper {
   background-color: white;
   padding: 20px;
 }
 
-.cartView .col1 .wrapper h1{
+.cartView .col1 .wrapper h1 {
   font-family: Arial, "Arial Unicode MS", Helvetica, "DejaVu Sans", "Lucida Sans Unicode", sans-serif;
   font-size: 24px;
   font-weight: 700;
@@ -1942,7 +1945,7 @@ a {
   color: rgb(26, 26, 26);
 }
 
-.cartView .col1 .wrapper h5{
+.cartView .col1 .wrapper h5 {
   font-family: Arial, "Arial Unicode MS", Helvetica, "DejaVu Sans", "Lucida Sans Unicode", sans-serif;
   font-size: 12px;
   font-weight: 400;
@@ -1952,7 +1955,7 @@ a {
 }
 
 
-.cartView .col1 .wrapper p{
+.cartView .col1 .wrapper p {
   font-family: Arial, "Arial Unicode MS", Helvetica, "DejaVu Sans", "Lucida Sans Unicode", sans-serif;
   font-size: 12px;
   font-weight: 700;
@@ -1961,30 +1964,30 @@ a {
   margin-top: 30px;
 }
 
-.cartView .col1 .wrapper .cartCard{
+.cartView .col1 .wrapper .cartCard {
   display: grid;
   grid-template-rows: repeat(1);
   grid-row-start: auto;
   margin-top: 20px;
 }
 
-.cartCard .card{
+.cartCard .card {
   display: flex;
   justify-content: space-between;
 }
 
-.cartCard .card .col1{
+.cartCard .card .col1 {
   width: 40%;
   display: flex;
   gap: 10px;
 }
 
-.cartCard .card .col1 img{
+.cartCard .card .col1 img {
   width: 30%;
 
 }
 
-.cartCard .card .col1 h1{
+.cartCard .card .col1 h1 {
   font-family: Arial, "Arial Unicode MS", Helvetica, "DejaVu Sans", "Lucida Sans Unicode", sans-serif;
   font-size: 14px;
   font-weight: 400;
@@ -1992,7 +1995,7 @@ a {
   color: rgb(102, 102, 102);
 }
 
-.cartCard .card .col1 p{
+.cartCard .card .col1 p {
   font-family: Arial, "Arial Unicode MS", Helvetica, "DejaVu Sans", "Lucida Sans Unicode", sans-serif;
   font-size: 12px;
   font-weight: 700;
@@ -2001,18 +2004,19 @@ a {
   margin-top: 45px;
 }
 
-.cartCard .card .col1 a{
+.cartCard .card .col1 a {
   color: rgb(153, 153, 153);
 }
 
-.cartCard .card .col2 select{
+.cartCard .card .col2 select {
   width: 100px;
   padding: 10px;
   position: relative;
   left: 145px;
   top: 30px;
 }
-.cartCard .card .col2 h1{
+
+.cartCard .card .col2 h1 {
   font-family: Arial, "Arial Unicode MS", Helvetica, "DejaVu Sans", "Lucida Sans Unicode", sans-serif;
   font-size: 14px;
   font-weight: 700;
@@ -2022,13 +2026,13 @@ a {
   margin-top: 80px;
 }
 
-.cartView .col1 .wrapper2{
+.cartView .col1 .wrapper2 {
   background-color: white;
   padding: 20px;
   margin-top: 20px;
 }
 
-.cartView .col1 .wrapper2 h1{
+.cartView .col1 .wrapper2 h1 {
   font-family: Arial, "Arial Unicode MS", Helvetica, "DejaVu Sans", "Lucida Sans Unicode", sans-serif;
   font-size: 24px;
   font-weight: 700;
@@ -2036,7 +2040,7 @@ a {
   color: rgb(26, 26, 26);
 }
 
-.cartView .col1 .wrapper2 p{
+.cartView .col1 .wrapper2 p {
   font-family: Arial, "Arial Unicode MS", Helvetica, "DejaVu Sans", "Lucida Sans Unicode", sans-serif;
   font-size: 14px;
   font-weight: 400;
@@ -2045,48 +2049,42 @@ a {
   margin-top: 40px;
 }
 
-.cartView .col2{
+.cartView .col2 {
   width: 35%;
   background-color: white;
 }
 
-.cartView .col2 .wrapper3{
+.cartView .col2 .wrapper3 {
   padding: 20px;
 }
 
-.cartView .col2 .wrapper3 .txtBanner{
+.cartView .col2 .wrapper3 .txtBanner {
   /* width: 95%; */
   display: flex;
   background-color: #EBF0F4;
   padding: 10px;
   gap: 2px;
   color: #2F5FB4;
-  font-family: Arial
-  "Arial Unicode MS"
-  Helvetica
-  "DejaVu Sans"
-  "Lucida Sans Unicode"
-  sans-serif;
+  font-family: Arial "Arial Unicode MS"
+    Helvetica "DejaVu Sans"
+    "Lucida Sans Unicode"
+    sans-serif;
 }
 
-.cartView .col2 .wrapper3 .txtBanner p{
+.cartView .col2 .wrapper3 .txtBanner p {
   color: #2F5FB4;
-  font-family: Arial
-  "Arial Unicode MS"
-  Helvetica
-  "DejaVu Sans"
-  "Lucida Sans Unicode"
-  sans-serif;
+  font-family: Arial "Arial Unicode MS"
+    Helvetica "DejaVu Sans"
+    "Lucida Sans Unicode"
+    sans-serif;
   font-size: 12px;
 }
 
-.cartView .col2 .wrapper3 h1{
-  font-family: Arial
-  "Arial Unicode MS"
-  Helvetica
-  "DejaVu Sans"
-  "Lucida Sans Unicode"
-  sans-serif;
+.cartView .col2 .wrapper3 h1 {
+  font-family: Arial "Arial Unicode MS"
+    Helvetica "DejaVu Sans"
+    "Lucida Sans Unicode"
+    sans-serif;
   font-size: 24px;
   font-weight: 700;
   line-height: 28px;
@@ -2094,41 +2092,35 @@ a {
   margin-top: 20px;
 }
 
-.cartView .col2 .wrapper3 .priceCal{
+.cartView .col2 .wrapper3 .priceCal {
   display: flex;
   justify-content: space-between;
   margin-top: 30px;
   font-size: 14px;
-  font-family: Arial
-  "Arial Unicode MS"
-  Helvetica
-  "DejaVu Sans"
-  "Lucida Sans Unicode"
-  sans-serif;
+  font-family: Arial "Arial Unicode MS"
+    Helvetica "DejaVu Sans"
+    "Lucida Sans Unicode"
+    sans-serif;
   line-height: 20px;
   letter-spacing: 0.5px;
 }
 
-.cartView .col2 .wrapper3 .priceCal p{
+.cartView .col2 .wrapper3 .priceCal p {
   font-size: 14px;
-  font-family: Arial
-  "Arial Unicode MS"
-  Helvetica
-  "DejaVu Sans"
-  "Lucida Sans Unicode"
-  sans-serif;
+  font-family: Arial "Arial Unicode MS"
+    Helvetica "DejaVu Sans"
+    "Lucida Sans Unicode"
+    sans-serif;
   line-height: 20px;
   letter-spacing: 0.5px;
 }
 
-.cartView .col2 .wrapper3 .priceCal h1{
+.cartView .col2 .wrapper3 .priceCal h1 {
   font-size: 14px;
-  font-family: Arial
-  "Arial Unicode MS"
-  Helvetica
-  "DejaVu Sans"
-  "Lucida Sans Unicode"
-  sans-serif;
+  font-family: Arial "Arial Unicode MS"
+    Helvetica "DejaVu Sans"
+    "Lucida Sans Unicode"
+    sans-serif;
   line-height: 20px;
   letter-spacing: 0.5px;
   font-weight: 700;
@@ -2140,15 +2132,15 @@ a {
 
 /* DASHBOARD CSS STARTS */
 
-.overflow{
+.overflow {
   overflow: hidden;
 }
 
-.adminPage{
+.adminPage {
   display: flex;
 }
 
-.container{
+.container {
   width: 100%;
   height: 100vh;
   display: flex;
@@ -2156,10 +2148,10 @@ a {
   padding-right: 190px;
 }
 
-.sideBar{
+.sideBar {
   width: 17%;
   height: 85vh;
-  box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
   border: 1px solid rgb(211, 208, 208);
   border-right: none;
   border-top-left-radius: 10px;
@@ -2168,11 +2160,11 @@ a {
   margin-top: 20px;
 }
 
-.sideBar:hover{
-  box-shadow: 0px 5px 5px rgba(0,0,0,0.5);
+.sideBar:hover {
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
-.sideBar .logo p{
+.sideBar .logo p {
   font: HelveticaNow, Helvetica, sans-serif;
   font-size: 12px;
   font-weight: 200;
@@ -2180,7 +2172,7 @@ a {
   color: rgb(26, 26, 26);
 }
 
-.dBoard{
+.dBoard {
   width: 90%;
   margin-top: 20px;
   background-color: #FF6900;
@@ -2188,7 +2180,7 @@ a {
   cursor: alias;
 }
 
-.dBoard h1{
+.dBoard h1 {
   font: HelveticaNow, Helvetica, sans-serif;
   font-size: 12px;
   font-weight: 700;
@@ -2200,13 +2192,13 @@ a {
 }
 
 
-.dashBoard{
+.dashBoard {
   width: 90%;
-  box-shadow: 0px 0px 4px rgba(0,0,0,0.5);
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
   margin-top: 80px;
 }
 
-.dashBoard h1{
+.dashBoard h1 {
   font: HelveticaNow, Helvetica, sans-serif;
   font-size: 14px;
   font-weight: 200;
@@ -2216,20 +2208,20 @@ a {
   padding: 10px;
 }
 
-.dashBoard h1:hover{ 
+.dashBoard h1:hover {
   color: white;
   background-color: rgb(26, 26, 26);
- 
+
 }
 
-.productDashboard{
+.productDashboard {
   width: 90%;
-  box-shadow: 0px 0px 4px rgba(0,0,0,0.5);
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
   margin-top: 20px;
 
 }
 
-.productDashboard h1{
+.productDashboard h1 {
   font: HelveticaNow, Helvetica, sans-serif;
   font-size: 14px;
   font-weight: 200;
@@ -2239,19 +2231,19 @@ a {
   padding: 10px;
 }
 
-.productDashboard h1:hover{ 
+.productDashboard h1:hover {
   color: white;
   background-color: rgb(26, 26, 26);
- 
+
 }
 
-.createProduct{
+.createProduct {
   width: 90%;
-  box-shadow: 0px 0px 4px rgba(0,0,0,0.5);
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
   margin-top: 20px;
 }
 
-.createProduct h1{
+.createProduct h1 {
   font: HelveticaNow, Helvetica, sans-serif;
   font-size: 14px;
   font-weight: 200;
@@ -2261,19 +2253,19 @@ a {
   padding: 10px;
 }
 
-.createProduct h1:hover{ 
+.createProduct h1:hover {
   color: white;
   background-color: rgb(26, 26, 26);
- 
+
 }
 
-.users{
+.users {
   width: 90%;
-  box-shadow: 0px 0px 4px rgba(0,0,0,0.5);
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
   margin-top: 20px;
 }
 
-.users h1{
+.users h1 {
   font: HelveticaNow, Helvetica, sans-serif;
   font-size: 14px;
   font-weight: 200;
@@ -2283,18 +2275,18 @@ a {
   padding: 10px;
 }
 
-.users h1:hover{ 
+.users h1:hover {
   color: white;
   background-color: rgb(26, 26, 26);
 }
 
-.LoginReg{
+.LoginReg {
   width: 90%;
-  box-shadow: 0px 0px 4px rgba(0,0,0,0.5);
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
   margin-top: 20px;
 }
 
-.LoginReg h1{
+.LoginReg h1 {
   font: HelveticaNow, Helvetica, sans-serif;
   font-size: 14px;
   font-weight: 200;
@@ -2304,12 +2296,12 @@ a {
   padding: 10px;
 }
 
-.LoginReg h1:hover{ 
+.LoginReg h1:hover {
   color: white;
   background-color: rgb(26, 26, 26);
 }
 
-.dashboardBanner{
+.dashboardBanner {
   width: 48%;
   height: 85vh;
   border: 1px solid rgb(211, 208, 208);
@@ -2319,20 +2311,20 @@ a {
   margin-top: 20px;
 }
 
-.dashboardBanner:hover{
-  box-shadow: 05px 0px 5px rgba(0,0,0,0.5);
+.dashboardBanner:hover {
+  box-shadow: 05px 0px 5px rgba(0, 0, 0, 0.5);
 }
 
-.banner1{
+.banner1 {
   width: 100%;
   height: 200px;
   background-image: url('./components/dashboard/img/img2.webp');
-  background-size: cover;  
+  background-size: cover;
   justify-content: center;
   align-items: center;
 }
 
-.banner1 button{
+.banner1 button {
   width: 15%;
   position: relative;
   left: 320px;
@@ -2346,7 +2338,7 @@ a {
   cursor: pointer;
 }
 
-.b2 button{
+.b2 button {
   width: 20%;
   position: relative;
   left: 308px;
@@ -2360,7 +2352,7 @@ a {
   cursor: pointer;
 }
 
-.banner1 button a{
+.banner1 button a {
   color: rgb(26, 26, 26);
 }
 
@@ -2369,7 +2361,7 @@ a {
   color: white;
 }
 
-.banner2{
+.banner2 {
   display: flex;
   gap: 10px;
   cursor: default;
@@ -2377,14 +2369,14 @@ a {
 
 
 
-.banner2 .totalProduct{
+.banner2 .totalProduct {
   width: 30%;
   background-color: #F9EFE5;
   margin-top: 20px;
   padding: 10px;
 }
 
-.banner2 .totalProduct h1{
+.banner2 .totalProduct h1 {
   font: HelveticaNow, Helvetica, sans-serif;
   font-size: 15px;
   font-weight: 400;
@@ -2397,47 +2389,63 @@ a {
 
 }
 
-.banner3{
+.productViewBanner{
   width: 100%;
   height: 430px;
-
+  overflow: hidden;
+  margin-top: 10px;
 }
 
-.banner3 table{
+
+/* .productViewBanner {
+  overflow: hidden;
+
+} */
+
+.productViewBanner:hover {
+  overflow: hidden;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  scroll-margin: 50px;
+}
+
+
+.banner3 table {
   margin-top: 20px;
-  background-color: #F9EFE5;
-  border: none;
-  
+  /* background-color: #F9EFE5; */
+  background-color: transparent;
+  overflow: hidden;
+  /* border: none; */
+
 }
 
-.banner3 table thead{
+.banner3 table thead {
   border-top: none;
 }
 
-.banner3 table td{
+.banner3 table td {
   font: HelveticaNow, Helvetica, sans-serif;
   font-size: 15px;
   font-weight: 200;
   line-height: 24px;
   color: rgb(26, 26, 26);
   text-align: center;
-  border-top: 1px solid rgb(26, 26, 26);
-  border-right: 1px solid rgb(26, 26, 26);
-}
-
-.banner3 table .tdnone{
+  border-top: none;
   border-right: none;
 }
 
-.banner3 table .tdtop{
+.banner3 table .tdnone {
+  border-right: none;
+}
+
+.banner3 table .tdtop {
   border-top: none;
 }
 
-.banner3 table td img{
+.banner3 table td img {
   width: 30px;
   padding: 5px;
 }
-
 
 
 /* DASHBOARD CSS ENDS */
@@ -2451,7 +2459,7 @@ a {
   cursor: alias;
 }
 
-.board h1{
+.board h1 {
   font: HelveticaNow, Helvetica, sans-serif;
   font-size: 12px;
   font-weight: 700;
@@ -2459,30 +2467,30 @@ a {
   color: white;
   justify-content: space-between;
   padding: 10px;
-  cursor:alias;
+  cursor: alias;
 }
 
 
 
-.productViewBanner{
+.productViewBanner {
   overflow: hidden;
 
 }
 
-.productViewBanner:hover{
-  scrollbar-width: thin;
-  scrollbar-color: black;
+.productViewBanner:hover {
+  /* scrollbar-width: thin;
+  scrollbar-color: black; */
   overflow: hidden;
-  overflow-y: scroll ;
+  overflow-y: scroll;
 
 }
 
 
-.productBanner .pdView{
+.productBanner .pdView {
   margin-top: 20px;
 }
 
-.productBanner .pdView h1{
+.productBanner .pdView h1 {
   font: HelveticaNow, Helvetica, sans-serif;
   font-size: 20px;
   font-weight: 700;
@@ -2490,33 +2498,41 @@ a {
   color: #1D3352;
 }
 
-.banner3 .pdCard{
+.banner3 .pdCard {
   width: 100%;
   display: grid;
   grid-template-columns: repeat(4, 2fr);
-  column-gap: 10px;
-  margin-top: 10px;
+  gap: 20px;
+  /* column-gap: 10px; */
+  /* margin-top: 30px; */
 }
 
-.banner3 .pdCard .cardView{
-  height: 180px;
+.loading{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner3 .pdCard .cardView {
+  width: 80%;
+  height: auto;
   padding: 5px;
   border: 1px solid #F9EFE5;
 
 }
 
-.banner3 .pdCard .cardView:hover  {
+.banner3 .pdCard .cardView:hover {
   background-color: #c0bebe;
   color: white;
 
 }
 
-.banner3 .pdCard .cardView img{
+.banner3 .pdCard .cardView img {
   width: 100%;
   height: 80px;
 }
 
-.banner3 .pdCard .cardView h1{
+.banner3 .pdCard .cardView h1 {
   font: HelveticaNow, Helvetica, sans-serif;
   font-size: 15px;
   font-weight: 600;
@@ -2525,7 +2541,7 @@ a {
   margin-top: 5px;
 }
 
-.banner3 .pdCard .cardView h2{
+.banner3 .pdCard .cardView h2 {
   font: HelveticaNow, Helvetica, sans-serif;
   font-size: 10px;
   font-weight: 500;
@@ -2534,7 +2550,7 @@ a {
   margin-top: 10px;
 }
 
-.banner3 .pdCard .cardView .pdtxt{
+.banner3 .pdCard .cardView .pdtxt {
   font: HelveticaNow, Helvetica, sans-serif;
   font-weight: 700;
   display: flex;
@@ -2543,7 +2559,7 @@ a {
   margin-top: 10px;
 }
 
-.cardView .pdBtn{
+.cardView .pdBtn {
   width: 100%;
   /* justify-content: space-between; */
   display: block;
@@ -2551,7 +2567,7 @@ a {
   /* margin-top: 15px; */
 }
 
-.cardView .pdBtn button{
+.cardView .pdBtn button {
   width: 50%;
   padding: 5px;
   gap: 20px;
@@ -2565,22 +2581,66 @@ a {
 /* ADMIN PRODUCTVIEW CSS ENDS */
 
 /* CREATEPRODUCT CSS STARTS */
-.createProductBanner{
+.createProductBanner {
   width: 100%;
+  height: auto;
   background-color: #F9EFE5;
-  margin-top: 20px;
+  /* margin-top: 20px; */
 }
+
 /* .form-container{width: 97%;  padding: 10px;} */
-.createProductBanner form{width: 80%; background-color: transparent; margin: auto; padding: 20px; border-radius: 10px;}
-.createProductBanner form input{display: block; background-color: transparent; margin: auto; width: 90%; height: 30px; border-radius: 2px; margin: 20px; border: 2px solid #dadada; padding: 10px; outline: none;}
-.createProductBanner form button{display: block; width: 180px; color: white; background-color: rgb(26, 26, 26); border: 0px; padding: 10px 50px; margin: auto;}
+.createProductBanner form {
+  width: 80%;
+  background-color: transparent;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.createProductBanner form input {
+  display: block;
+  background-color: transparent;
+  margin: auto;
+  width: 90%;
+  height: 30px;
+  border-radius: 2px;
+  margin: 20px;
+  border: 2px solid #dadada;
+  padding: 10px;
+  outline: none;
+}
+
+.createProductBanner form button {
+  display: block;
+  width: 180px;
+  color: white;
+  background-color: rgb(26, 26, 26);
+  border: 0px;
+  padding: 10px 50px;
+  margin: auto;
+}
+
+.createProductBanner form button:hover{
+  background-color: gray;
+  color: white;
+}
+
+.createProductBanner form span {
+  color: red;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 20px;
+  margin-top: -20px;
+}
 
 
 /* CREATEPRODUCT CSS ENDS */
 
 /* USERS CSS STARTS */
 
-table .th td{
+table .th td {
   font-size: 15px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 700;
@@ -2588,34 +2648,34 @@ table .th td{
   border: none;
   background-color: #1A314E;
   border-radius: 5px;
-  
+
 }
 
-table .tb td{
+table .tb td {
   font-size: 12px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 200;
   border: none;
   background-color: white;
   border-radius: 5px;
-  
+
 }
 
- .Btn1:hover{
+.Btn1:hover {
   background-color: rgb(26, 26, 26);
 }
 
-  .Btn2:hover{
+.Btn2:hover {
   background-color: rgb(180, 179, 179);
 }
 
- .Btn1{
+.Btn1 {
   background-color: #f8dbbd;
   color: white;
   /* margin-top: 5px; */
 }
 
- .Btn2{
+.Btn2 {
   background-color: #1D3450;
   color: white;
   /* margin-top: 5px; */
@@ -2623,7 +2683,7 @@ table .tb td{
 }
 
 
-table button{
+table button {
   width: 50%;
   padding: 5px;
   gap: 10px;
@@ -2632,20 +2692,20 @@ table button{
   cursor: pointer;
 }
 
-table .pdBtn .Btn1:hover{
+table .pdBtn .Btn1:hover {
   background-color: rgb(26, 26, 26);
 }
 
-table  .Btn2:hover{
+table .Btn2:hover {
   background-color: rgb(180, 179, 179);
 }
 
-table  .Btn1{
+table .Btn1 {
   background-color: green;
   color: white;
 }
 
-table .pdBtn .Btn2{
+table .pdBtn .Btn2 {
   background-color: #1D3450;
   color: white;
 }
@@ -2655,7 +2715,7 @@ table .pdBtn .Btn2{
 
 /* ADMIN LOGIN CSS STARTS */
 
-.adminContainer{
+.adminContainer {
   width: 100%;
   height: 100vh;
   display: flex;
@@ -2663,7 +2723,7 @@ table .pdBtn .Btn2{
   left: 200px;
 }
 
-.adminBanner{
+.adminBanner {
   width: 48%;
   height: 85vh;
   border: 1px solid rgb(211, 208, 208);
@@ -2672,17 +2732,17 @@ table .pdBtn .Btn2{
   margin-top: 40px;
 }
 
-.adminBanner h1{
+.adminBanner h1 {
   font: HelveticaNow, Helvetica, sans-serif;
   font-size: 20px;
   font-weight: 700;
   line-height: 16px;
   color: rgb(26, 26, 26);
   margin-top: 80px;
-  text-align: center  ;
+  text-align: center;
 }
 
-.adminbanner3{
+.adminbanner3 {
   width: 100%;
   height: 350px;
   border-radius: 10px;
@@ -2690,11 +2750,11 @@ table .pdBtn .Btn2{
   border: 1px solid rgb(211, 208, 208);
 }
 
-.adminForm form{
+.adminForm form {
   margin-top: 30px;
 }
 
-.adminForm2{
+.adminForm2 {
   width: 97%;
   background-color: #F9EFE5;
   margin-top: 20px;
@@ -2705,11 +2765,11 @@ table .pdBtn .Btn2{
   border: 1px solid rgb(211, 208, 208);
 }
 
-.adminForm2 form{
+.adminForm2 form {
   padding: 20px;
 }
 
-.adminForm2 form input{
+.adminForm2 form input {
   width: 92%;
   padding: 15px;
   background: transparent;
@@ -2718,7 +2778,7 @@ table .pdBtn .Btn2{
 
 }
 
-.adminForm2 form span{
+.adminForm2 form span {
   color: red;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
@@ -2726,7 +2786,7 @@ table .pdBtn .Btn2{
 }
 
 
- .adminForm2 form button {
+.adminForm2 form button {
   width: 96%;
   cursor: pointer;
   border: 1px solid #222222;
@@ -2741,6 +2801,7 @@ table .pdBtn .Btn2{
 .adminForm2 form button:hover {
   background-color: #66676E;
 }
+
 /* .createProductBanner{
   width: 100%;
   background-color: #F9EFE5;
@@ -2748,13 +2809,13 @@ table .pdBtn .Btn2{
 } */
 
 
-.adminForm form input{
+.adminForm form input {
   width: 90%;
   margin: 5px;
   border-radius: 5px;
 }
 
-.adminForm form label{
+.adminForm form label {
   padding: 5px;
 }
 
@@ -2772,7 +2833,7 @@ table .pdBtn .Btn2{
   /* margin-top: 20px; */
 }
 
-.adminbanner3 label{
+.adminbanner3 label {
   padding: 20px;
   font: HelveticaNow, Helvetica, sans-serif;
   font-size: 20px;
@@ -2782,16 +2843,16 @@ table .pdBtn .Btn2{
   margin-top: 80px;
 }
 
-.adminbanner3 .regLink{
+.adminbanner3 .regLink {
   width: 90%;
   padding: 30px;
   justify-content: space-between;
   display: flex;
-  
+
 }
 
 
-.adminbanner3 .regLink h1{
+.adminbanner3 .regLink h1 {
   font: HelveticaNow, Helvetica, sans-serif;
   font-size: 12px;
   font-weight: 700;
@@ -2801,17 +2862,17 @@ table .pdBtn .Btn2{
   text-align: center;
 }
 
-.adminregister{
+.adminregister {
   width: 100%;
   height: 550px;
   border-radius: 10px;
 }
 
-.adminregister form input{
+.adminregister form input {
   border-radius: 5px;
 }
 
-.adminregister label{
+.adminregister label {
   padding: 20px;
   font: HelveticaNow, Helvetica, sans-serif;
   font-size: 20px;

@@ -12,6 +12,7 @@ import UsersPage from "./components/dashboard/dashboardPage/UsersPage";
 import AdminPage from "./components/dashboard/dashboardPage/AdminPage";
 import AdminRegisterPage from "./components/dashboard/dashboardPage/AdminRegisterPage";
 import CartPage from "./components/ui/pages/CartPage";
+import CreateUserPage from "./components/dashboard/dashboardPage/CreateUserPage";
 
 function App() {
   return (
@@ -29,6 +30,8 @@ function App() {
         <Route path="/admin/createproduct" element={<CreateProductPage />} />
         <Route path="/admin/users" element={<UsersPage />} />
         <Route path="/admin/register" element={<AdminRegisterPage />} />
+        <Route path="/admin/userregister" element={<CreateUserPage />} />
+
       </Routes>
     </BrowserRouter>
   );

@@ -83,13 +83,13 @@ export function CreateProduct() {
                         <div><Link to="/admin/users"><h1>Users</h1></Link></div>
                     </div>
                     <div className="LoginReg">
-                        <div><Link to="/admin"><h1>Create user</h1></Link></div>
+                        <div><Link to="/admin/userregister"><h1>Create user</h1></Link></div>
                     </div>
                 </div>
                 <div className="dashboardBanner">
-                    <div className="banner1">
+                    {/* <div className="banner1">
                         <button>Go to Product</button>
-                    </div>
+                    </div> */}
 
                     <div className="banner3 createProductBanner">
 

@@ -1,12 +1,10 @@
 import React from "react";
 import { useState, useEffect } from "react";
-
-// import ShopBlog from "./ShopBlog";
 import ShopBlog2 from "./ShopBlog2";
 // import { AiOutlineHeart } from "react-icons/ai";
 // import { IoIosArrowRoundForward } from "react-icons/io";
 import { Link } from "react-router-dom";
-// import ShopBlog3 from "./ShopBlog3";
+import{Puff} from "react-loading-icons";
 
 
 
@@ -90,7 +88,7 @@ function Shop() {
                 <div className="col2">
                     <div className="card">
                         {loading === true ? (
-                            <div>Loading, please wait...</div>
+                            <Puff size={100}  stroke="#FF6900" strokeOpacity={.250} speed={.2} />
                         ) : (
                             product.map((product) => (
                                 <Link to={`/shop/${product._id}`}>
@@ -119,7 +117,7 @@ function Shop() {
                     <ShopBlog2 />
                     <div className="card">
                         {loading === true ? (
-                            <div>Loading, please wait...</div>
+                            <Puff size={100}  stroke="#FF6900" strokeOpacity={.125} speed={.2} />
                         ) : (
                             product.map((product) => (
                                 <Link to={`/shop/${product._id}`} key={product._id}>

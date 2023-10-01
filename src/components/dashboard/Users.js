@@ -1,10 +1,28 @@
 import { Link } from "react-router-dom";
 import logo from "./img/logo_default.svg";
-import Pix1 from "./img/img2.webp";
-// import Pix2 from "./img/img3.webp";
-
+import { useEffect, useState } from "react";
+import { Puff } from 'react-loading-icons';
 
 export function UsersLog() {
+
+    const [user, setUser] = useState([]);
+    const [loading, setLoading] = useState(true);
+
+    useEffect(() => {
+        // e.preventDefault();
+
+
+        fetch("http://159.65.21.42:9000/users")
+            .then((resp) => resp.json())
+            .then((data) => {
+
+                setUser(data)
+                setLoading(false)
+                // console.log(product);
+            });
+
+    }, []);
+
     return (
         <div className="overflow">
             <div className="container productContainer">
@@ -26,26 +44,20 @@ export function UsersLog() {
                         <div><h1>Users</h1></div>
                     </div>
                     <div className="LoginReg">
-                        <div><Link to="/admin"><h1>Create user</h1></Link></div>
+                        <div><Link to="/admin/userregister"><h1>Create user</h1></Link></div>
                     </div>
                 </div>
                 <div className="dashboardBanner productBanner">
-                    <div className="banner1 b2">
+                    {/* <div className="banner1 b2">
                         <button>Go to Dashboard</button>
-                    </div>
+                    </div> */}
                     <div className="pdView"><h1>Users Log</h1></div>
                     <div className="banner3 productViewBanner">
-                        <table width="100%" >
+                    <table width="100%" >
                             <thead className="th">
                                 <tr>
                                     <td className="tdtop">
-                                        Image
-                                    </td>
-                                    <td className="tdtop">
-                                        First Name
-                                    </td>
-                                    <td className="tdtop">
-                                        Last Name
+                                        Full Name
                                     </td>
                                     <td className="tdtop">
                                         Email
@@ -61,117 +73,28 @@ export function UsersLog() {
                                     </td>
                                 </tr>
                             </thead>
+                    {loading === true ?  (
+                                
+                                <Puff size={100}  stroke="#FF6900" strokeOpacity={.250} speed={.5} />
+                            ) : (
+                                user.map((user) => (
+                             
                             <tbody className="tb">
-                                <tr>
-                                    <td><img src={Pix1} alt="" /></td>
-                                    <td>James</td>
-                                    <td>Favour</td>
-                                    <td>jamesfavour@gmail.com</td>
-                                    <td >james123</td>
-                                    <td >08113654925</td>
-                                    <td ><button className="Btn1">Edit</button><button className="Btn2">Delete</button></td>
-                                </tr>
-                                <tr>
-                                    <td><img src={Pix1} alt="" /></td>
-                                    <td>James</td>
-                                    <td>Favour</td>
-                                    <td>jamesfavour@gmail.com</td>
-                                    <td >james123</td>
-                                    <td >08113654925</td>
-                                    <td ><button className="Btn1">Edit</button><button className="Btn2">Delete</button></td>
-                                </tr>
-                                <tr>
-                                    <td><img src={Pix1} alt="" /></td>
-                                    <td>James</td>
-                                    <td>Favour</td>
-                                    <td>jamesfavour@gmail.com</td>
-                                    <td >james123</td>
-                                    <td >08113654925</td>
-                                    <td ><button className="Btn1">Edit</button><button className="Btn2">Delete</button></td>
-                                </tr>
-                                <tr>
-                                    <td><img src={Pix1} alt="" /></td>
-                                    <td>James</td>
-                                    <td>Favour</td>
-                                    <td>jamesfavour@gmail.com</td>
-                                    <td >james123</td>
-                                    <td >08113654925</td>
-                                    <td ><button className="Btn1">Edit</button><button className="Btn2">Delete</button></td>
-                                </tr>
-                                <tr>
-                                    <td><img src={Pix1} alt="" /></td>
-                                    <td>James</td>
-                                    <td>Favour</td>
-                                    <td>jamesfavour@gmail.com</td>
-                                    <td >james123</td>
-                                    <td >08113654925</td>
-                                    <td ><button className="Btn1">Edit</button><button className="Btn2">Delete</button></td>
-                                </tr>
-                                <tr>
-                                    <td><img src={Pix1} alt="" /></td>
-                                    <td>James</td>
-                                    <td>Favour</td>
-                                    <td>jamesfavour@gmail.com</td>
-                                    <td >james123</td>
-                                    <td >08113654925</td>
-                                    <td ><button className="Btn1">Edit</button><button className="Btn2">Delete</button></td>
-                                </tr>
-                                <tr>
-                                    <td><img src={Pix1} alt="" /></td>
-                                    <td>James</td>
-                                    <td>Favour</td>
-                                    <td>jamesfavour@gmail.com</td>
-                                    <td >james123</td>
-                                    <td >08113654925</td>
-                                    <td ><button className="Btn1">Edit</button><button className="Btn2">Delete</button></td>
-                                </tr>
-                                <tr>
-                                    <td><img src={Pix1} alt="" /></td>
-                                    <td>James</td>
-                                    <td>Favour</td>
-                                    <td>jamesfavour@gmail.com</td>
-                                    <td >james123</td>
-                                    <td >08113654925</td>
-                                    <td ><button className="Btn1">Edit</button><button className="Btn2">Delete</button></td>
-                                </tr>
-                                <tr>
-                                    <td><img src={Pix1} alt="" /></td>
-                                    <td>James</td>
-                                    <td>Favour</td>
-                                    <td>jamesfavour@gmail.com</td>
-                                    <td >james123</td>
-                                    <td >08113654925</td>
-                                    <td ><button className="Btn1">Edit</button><button className="Btn2">Delete</button></td>
-                                </tr>
-                                <tr>
-                                    <td><img src={Pix1} alt="" /></td>
-                                    <td>James</td>
-                                    <td>Favour</td>
-                                    <td>jamesfavour@gmail.com</td>
-                                    <td >james123</td>
-                                    <td >08113654925</td>
-                                    <td ><button className="Btn1">Edit</button><button className="Btn2">Delete</button></td>
-                                </tr>
-                                <tr>
-                                    <td><img src={Pix1} alt="" /></td>
-                                    <td>James</td>
-                                    <td>Favour</td>
-                                    <td>jamesfavour@gmail.com</td>
-                                    <td >james123</td>
-                                    <td >08113654925</td>
-                                    <td ><button className="Btn1">Edit</button><button className="Btn2">Delete</button></td>
-                                </tr>
-                                <tr>
-                                    <td><img src={Pix1} alt="" /></td>
-                                    <td>James</td>
-                                    <td>Favour</td>
-                                    <td>jamesfavour@gmail.com</td>
-                                    <td >james123</td>
-                                    <td >08113654925</td>
+                                <tr className="troll">
+                                   
+                                    <td>{user.name}</td>
+                                    
+                                    <td>{user.email}</td>
+                                    <td >{user.password}</td>
+                                    <td >{user.phone}</td>
                                     <td ><button className="Btn1">Edit</button><button className="Btn2">Delete</button></td>
                                 </tr>
                                 
-                            </tbody>
+                                
+                                </tbody>
+                                ))
+                            )}
+                           
                         </table>
                     </div>
                 </div>
